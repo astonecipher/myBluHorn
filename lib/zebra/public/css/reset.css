@@ -1,0 +1,94 @@
+/* = FONT STACKS
+----------------------------------------------------------------------------------------------------------------------*/
+.buzz-calendar body    { font-family: Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif } /* "wide" sans serif */
+/*body    { font-family: Tahoma, Arial, Helvetica, sans-serif } /* "narrow" sans serif */
+/*body    { font-family: Georgia, Utopia, Palatino, 'Palatino Linotype', serif } /* "wide" serif */
+/*body    { font-family: 'Times New Roman', Times, serif } /* "narrow" serif */
+
+
+/*  transform the font size so that 1em is 10px so that you can use em's
+    but think in pixels as now 1em is 10px, 1.2em is 12px and so on */
+
+.buzz-calendar html { font-size: 62.5% }
+
+.buzz-calendar body {
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    text-align: center; /*  this is for IE6 so that it will center the main wrapper */
+    line-height: 1.2;   /*  unit-less line-height does not inherit a percentage value of its parent element */
+                        /*  but instead is based on a multiplier of the font-size */
+}
+
+.buzz-calendar div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, aabbr, acronym, address,
+big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,
+center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    line-height: inherit;
+
+}
+
+.buzz-calendar a, blockquote, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, img, input, label, li, ol, p, pre, span, table, ul {
+
+    position: relative
+
+}
+
+.buzz-calendar p, h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal }
+
+.buzz-calendar small
+sup,
+sub     { font-size: 70% }
+
+.buzz-calendar p small   { display: block; line-height: 1 }
+
+.buzz-calendar strong, b   { font-weight: bold }
+.buzz-calendar em, i       { font-style: italic }
+
+/* = CLEARFIX
+----------------------------------------------------------------------------------------------------------------------*/
+.buzz-calendar .clearfix:before,
+.buzz-calendar .clearfix:after     { content: "\0020"; display: block; height: 0; visibility: hidden; font-size: 0 }
+.buzz-calendar .clearfix:after     { clear: both }
+.buzz-calendar .clearfix           { *zoom: 1 } /* for IE only */
+
+/* = TABLES
+----------------------------------------------------------------------------------------------------------------------*/
+.buzz-calendar table {
+
+    border-collapse: collapse;
+    border-spacing: 0;
+    /* tables still need cellspacing="0" */
+
+}
+
+/* = LISTS
+----------------------------------------------------------------------------------------------------------------------*/
+.buzz-calendar ul, ol          { list-style: none }
+
+.buzz-calendar ul.float li,
+ol.float li     { float: left }
+
+.buzz-calendar ul.default,
+ol.default,
+ol.default ul,
+ul.default ul,
+ul.default ol,
+ol.default ol   { padding-left: 1.5em }
+
+.buzz-calendar ul.default,
+ol.default ul,
+ul.default ul   { list-style-type: square }
+
+.buzz-calendar ol.default,
+ul.default ol,
+ol.default ol   { list-style-type: decimal }

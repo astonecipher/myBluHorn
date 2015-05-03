@@ -1,0 +1,3921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adx xsi:noNamespaceSchemaLocation="http://www.spotcable.com/schema/spotcableOrder_101.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<document>
+		<schemaVersion>1.0</schemaVersion>
+		<name>
+		</name>
+		<date>2014-10-13</date>
+		<mediaType>Spotcable</mediaType>
+		<documentType/>
+		<documentCode/>
+	</document>
+	<campaign>
+		<key codeOwner="NCC" codeDescription="CampaignID">
+			<id></id>
+		</key>
+		<key codeOwner="Strata" codeDescription="DMA Override">
+			<id>0</id>
+		</key>
+		<key codeOwner="Strata" codeDescription="Zone Pops">
+			<id>sum</id>
+		</key>
+		<key codeOwner="VIEW32" codeDescription="CampaignName">
+			<id></id>
+		</key>
+		<key codeOwner="Strata" codeDescription="distro">
+			<id>bc</id>
+		</key>
+		<dateRange>
+			<startDate>2014-11-10</startDate>
+			<endDate>2015-04-19</endDate>
+		</dateRange>
+		<company type="Rep">
+			<name>
+			</name>
+			<office>
+				<name>
+				</name>
+				<address>
+					<street/>
+					<city/>
+					<state code="__"/>
+					<postalCode>00000</postalCode>
+				</address>
+				<phone type="voice"></phone>
+			</office>
+			<contact role="AE">
+				<firstName/>
+				<lastName/>
+				<email/>
+				<phone type="voice"/>
+			</contact>
+		</company>
+		<company type="Agency">
+			<name>&lt;none&gt;</name>
+			<contact role="Buyer">
+				<firstName/>
+				<lastName/>
+				<email/>
+				<phone type="voice"></phone>
+			</contact>
+			<ID>
+				<code codeOwner="Agency"></code>
+			</ID>
+		</company>
+		<advertiser>
+			<name>David Ellis Chrysler-Jeep</name>
+			<ID>
+				<code codeOwner="Agency"></code>
+			</ID>
+		</advertiser>
+		<product>
+			<name>
+			</name>
+			<ID>
+				<code codeOwner="Agency">
+				</code>
+			</ID>
+		</product>
+		<estimate>
+			<desc/>
+			<ID>
+				<code codeOwner="Agency">277446</code>
+			</ID>
+		</estimate>
+		<makeGoodPolicy>
+			<code/>
+		</makeGoodPolicy>
+		<demo demoRank="1">
+			<group>Households</group>
+			<ageFrom>0</ageFrom>
+			<ageTo>99</ageTo>
+		</demo>
+		<buyType>weekly</buyType>
+		<populations demoRank="1">272219</populations>
+		<order>
+			<key codeOwner="NCC" codeDescription="Market">
+				<id>165</id>
+			</key>
+			<key codeOwner="">
+				<id/>
+			</key>
+			<key codeOwner="Strata" codeDescription="Pops">
+				<id>zone;sum</id>
+			</key>
+			<key codeOwner="Strata" codeDescription="UseBroadcastWeeks">
+				<id>0</id>
+			</key>
+			<totals>
+				<cost>116442.00</cost>
+				<spots>5400</spots>
+			</totals>
+			<market nsi_id="403">
+				<name>Los Angeles</name>
+			</market>
+			<survey>
+				<ratingService/>
+				<geography/>
+				<shareBook/>
+				<PUTBook/>
+				<profile/>
+				<comment codeOwner="Spotcable">Aug14 C-DMA Nielsen Live+7</comment>
+			</survey>
+			<populations demoRank="1">272219</populations>
+			<comment/>
+			<systemOrder>
+				<key codeOwner="">
+					<id/>
+				</key>
+				<key codeOwner="Strata" codeDescription="UseZonePop">
+					<id>true</id>
+				</key>
+				<comment></comment>
+				<system>
+					<name>TW/West San Fernando Valley</name>
+					<syscode>0196</syscode>
+				</system>
+				<affiliateSplit/>
+				<populations demoRank="1">90503</populations>
+				<totals>
+					<cost>36180.00</cost>
+					<spots>1206</spots>
+				</totals>
+				<weeks count="23">
+					<week number="1" startDate="2014-11-10"/>
+					<week number="2" startDate="2014-11-17"/>
+					<week number="3" startDate="2014-11-24"/>
+					<week number="4" startDate="2014-12-01"/>
+					<week number="5" startDate="2014-12-08"/>
+					<week number="6" startDate="2014-12-15"/>
+					<week number="7" startDate="2014-12-22"/>
+					<week number="8" startDate="2014-12-29"/>
+					<week number="9" startDate="2015-01-05"/>
+					<week number="10" startDate="2015-01-12"/>
+					<week number="11" startDate="2015-01-19"/>
+					<week number="12" startDate="2015-01-26"/>
+					<week number="13" startDate="2015-02-02"/>
+					<week number="14" startDate="2015-02-09"/>
+					<week number="15" startDate="2015-02-16"/>
+					<week number="16" startDate="2015-02-23"/>
+					<week number="17" startDate="2015-03-02"/>
+					<week number="18" startDate="2015-03-09"/>
+					<week number="19" startDate="2015-03-16"/>
+					<week number="20" startDate="2015-03-23"/>
+					<week number="21" startDate="2015-03-30"/>
+					<week number="22" startDate="2015-04-06"/>
+					<week number="23" startDate="2015-04-13"/>
+				</weeks>
+				<detailLine detailLineID="2">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>AVG. ALL WKS</program>
+					<comment>TP</comment>
+					<network>
+						<name>DISC-TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6530">DISC</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">DISC-TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">30.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.6</value>
+						<value type="Impressions">571</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">6030.00</cost>
+						<spots>201</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="3">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>AVG. ALL WKS&lt;</program>
+					<comment>TP</comment>
+					<network>
+						<name>ESPN-TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6204">ESPN</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">ESPN-TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">30.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.7</value>
+						<value type="Impressions">636</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">6030.00</cost>
+						<spots>201</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="5">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>AVG. ALL WKS&lt;</program>
+					<comment>TP</comment>
+					<network>
+						<name>TNT -TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6390">TNT</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">TNT -TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">30.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">1.5</value>
+						<value type="Impressions">1383</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">6030.00</cost>
+						<spots>201</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="6">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>VARIOUS</program>
+					<comment>TP</comment>
+					<network>
+						<name>USA -TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6217">USA</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">USA -TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">30.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">1.2</value>
+						<value type="Impressions">1122</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">6030.00</cost>
+						<spots>201</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="1">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>VARIOUS</program>
+					<comment>TP</comment>
+					<network>
+						<name>HGTV-TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="8920">HGTV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">HGTV-TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">30.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.7</value>
+						<value type="Impressions">673</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">6030.00</cost>
+						<spots>201</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="4">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>AVG. ALL WKS&lt;</program>
+					<comment>TP</comment>
+					<network>
+						<name>CNN -TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6202">CNN</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">CNN -TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">30.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.6</value>
+						<value type="Impressions">521</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">6030.00</cost>
+						<spots>201</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+			</systemOrder>
+			<systemOrder>
+				<key codeOwner="">
+					<id/>
+				</key>
+				<key codeOwner="Strata" codeDescription="UseZonePop">
+					<id>true</id>
+				</key>
+				<comment></comment>
+				<system>
+					<name>TW/East San Fernando Valley</name>
+					<syscode>1568</syscode>
+				</system>
+				<affiliateSplit/>
+				<populations demoRank="1">85243</populations>
+				<totals>
+					<cost>35640.00</cost>
+					<spots>1782</spots>
+				</totals>
+				<weeks count="23">
+					<week number="1" startDate="2014-11-10"/>
+					<week number="2" startDate="2014-11-17"/>
+					<week number="3" startDate="2014-11-24"/>
+					<week number="4" startDate="2014-12-01"/>
+					<week number="5" startDate="2014-12-08"/>
+					<week number="6" startDate="2014-12-15"/>
+					<week number="7" startDate="2014-12-22"/>
+					<week number="8" startDate="2014-12-29"/>
+					<week number="9" startDate="2015-01-05"/>
+					<week number="10" startDate="2015-01-12"/>
+					<week number="11" startDate="2015-01-19"/>
+					<week number="12" startDate="2015-01-26"/>
+					<week number="13" startDate="2015-02-02"/>
+					<week number="14" startDate="2015-02-09"/>
+					<week number="15" startDate="2015-02-16"/>
+					<week number="16" startDate="2015-02-23"/>
+					<week number="17" startDate="2015-03-02"/>
+					<week number="18" startDate="2015-03-09"/>
+					<week number="19" startDate="2015-03-16"/>
+					<week number="20" startDate="2015-03-23"/>
+					<week number="21" startDate="2015-03-30"/>
+					<week number="22" startDate="2015-04-06"/>
+					<week number="23" startDate="2015-04-13"/>
+				</weeks>
+				<detailLine detailLineID="10">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>AVG. ALL WKS</program>
+					<comment>TP</comment>
+					<network>
+						<name>DISC-TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6530">DISC</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">DISC-TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">20.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.7</value>
+						<value type="Impressions">590</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">3960.00</cost>
+						<spots>198</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="11">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>AVG. ALL WKS&lt;</program>
+					<comment>TP</comment>
+					<network>
+						<name>ESPN-TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6204">ESPN</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">ESPN-TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">20.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.6</value>
+						<value type="Impressions">514</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">3960.00</cost>
+						<spots>198</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="12">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>VARIOUS</program>
+					<comment>TP</comment>
+					<network>
+						<name>FX  -TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="7328">FX</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">FX  -TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">20.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.6</value>
+						<value type="Impressions">534</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">3960.00</cost>
+						<spots>198</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="13">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>VARIOUS</program>
+					<comment>TP</comment>
+					<network>
+						<name>HIST-TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="8908">HIST</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">HIST-TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">20.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.5</value>
+						<value type="Impressions">442</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">3960.00</cost>
+						<spots>198</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="14">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>VARIOUS</program>
+					<comment>TP</comment>
+					<network>
+						<name>TBSC-TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="7237">TBSC</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">TBSC-TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">20.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.8</value>
+						<value type="Impressions">667</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">3960.00</cost>
+						<spots>198</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="15">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>AVG. ALL WKS&lt;</program>
+					<comment>TP</comment>
+					<network>
+						<name>TNT -TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6390">TNT</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">TNT -TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">20.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">1.2</value>
+						<value type="Impressions">1064</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">3960.00</cost>
+						<spots>198</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="16">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>VARIOUS</program>
+					<comment>TP</comment>
+					<network>
+						<name>USA -TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6217">USA</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">USA -TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">20.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">1.0</value>
+						<value type="Impressions">864</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">3960.00</cost>
+						<spots>198</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="8">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>VARIOUS</program>
+					<comment>TP</comment>
+					<network>
+						<name>HGTV-TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="8920">HGTV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">HGTV-TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">20.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.6</value>
+						<value type="Impressions">545</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">3960.00</cost>
+						<spots>198</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="9">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>AVG. ALL WKS&lt;</program>
+					<comment>TP</comment>
+					<network>
+						<name>CNN -TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6202">CNN</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">CNN -TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">20.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.6</value>
+						<value type="Impressions">538</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">3960.00</cost>
+						<spots>198</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+			</systemOrder>
+			<systemOrder>
+				<key codeOwner="">
+					<id/>
+				</key>
+				<key codeOwner="Strata" codeDescription="UseZonePop">
+					<id>true</id>
+				</key>
+				<comment></comment>
+				<system>
+					<name>Charter/BURBANK/GLENDALE</name>
+					<syscode>8010</syscode>
+				</system>
+				<affiliateSplit/>
+				<populations demoRank="1">44096</populations>
+				<totals>
+					<cost>28944.00</cost>
+					<spots>1206</spots>
+				</totals>
+				<weeks count="23">
+					<week number="1" startDate="2014-11-10"/>
+					<week number="2" startDate="2014-11-17"/>
+					<week number="3" startDate="2014-11-24"/>
+					<week number="4" startDate="2014-12-01"/>
+					<week number="5" startDate="2014-12-08"/>
+					<week number="6" startDate="2014-12-15"/>
+					<week number="7" startDate="2014-12-22"/>
+					<week number="8" startDate="2014-12-29"/>
+					<week number="9" startDate="2015-01-05"/>
+					<week number="10" startDate="2015-01-12"/>
+					<week number="11" startDate="2015-01-19"/>
+					<week number="12" startDate="2015-01-26"/>
+					<week number="13" startDate="2015-02-02"/>
+					<week number="14" startDate="2015-02-09"/>
+					<week number="15" startDate="2015-02-16"/>
+					<week number="16" startDate="2015-02-23"/>
+					<week number="17" startDate="2015-03-02"/>
+					<week number="18" startDate="2015-03-09"/>
+					<week number="19" startDate="2015-03-16"/>
+					<week number="20" startDate="2015-03-23"/>
+					<week number="21" startDate="2015-03-30"/>
+					<week number="22" startDate="2015-04-06"/>
+					<week number="23" startDate="2015-04-13"/>
+				</weeks>
+				<detailLine detailLineID="19">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>AVG. ALL WKS</program>
+					<comment>TP</comment>
+					<network>
+						<name>DISC-TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6530">DISC</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">DISC-TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">24.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.6</value>
+						<value type="Impressions">278</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">4824.00</cost>
+						<spots>201</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="20">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>AVG. ALL WKS&lt;</program>
+					<comment>TP</comment>
+					<network>
+						<name>ESPN-TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6204">ESPN</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">ESPN-TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">24.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.7</value>
+						<value type="Impressions">300</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">4824.00</cost>
+						<spots>201</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="22">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>AVG. ALL WKS&lt;</program>
+					<comment>TP</comment>
+					<network>
+						<name>TNT -TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6390">TNT</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">TNT -TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">24.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">1.5</value>
+						<value type="Impressions">675</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">4824.00</cost>
+						<spots>201</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="23">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>VARIOUS</program>
+					<comment>TP</comment>
+					<network>
+						<name>USA -TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6217">USA</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">USA -TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">24.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">1.2</value>
+						<value type="Impressions">547</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">4824.00</cost>
+						<spots>201</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="18">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>VARIOUS</program>
+					<comment>TP</comment>
+					<network>
+						<name>HGTV-TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="8920">HGTV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">HGTV-TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">24.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.7</value>
+						<value type="Impressions">317</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">4824.00</cost>
+						<spots>201</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="21">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>AVG. ALL WKS&lt;</program>
+					<comment>TP</comment>
+					<network>
+						<name>CNN -TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6202">CNN</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">CNN -TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">24.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.6</value>
+						<value type="Impressions">254</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">4824.00</cost>
+						<spots>201</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+			</systemOrder>
+			<systemOrder>
+				<key codeOwner="">
+					<id/>
+				</key>
+				<key codeOwner="Strata" codeDescription="UseZonePop">
+					<id>true</id>
+				</key>
+				<comment></comment>
+				<system>
+					<name>TW/Los Feliz</name>
+					<syscode>6440</syscode>
+				</system>
+				<affiliateSplit/>
+				<populations demoRank="1">52377</populations>
+				<totals>
+					<cost>15678.00</cost>
+					<spots>1206</spots>
+				</totals>
+				<weeks count="23">
+					<week number="1" startDate="2014-11-10"/>
+					<week number="2" startDate="2014-11-17"/>
+					<week number="3" startDate="2014-11-24"/>
+					<week number="4" startDate="2014-12-01"/>
+					<week number="5" startDate="2014-12-08"/>
+					<week number="6" startDate="2014-12-15"/>
+					<week number="7" startDate="2014-12-22"/>
+					<week number="8" startDate="2014-12-29"/>
+					<week number="9" startDate="2015-01-05"/>
+					<week number="10" startDate="2015-01-12"/>
+					<week number="11" startDate="2015-01-19"/>
+					<week number="12" startDate="2015-01-26"/>
+					<week number="13" startDate="2015-02-02"/>
+					<week number="14" startDate="2015-02-09"/>
+					<week number="15" startDate="2015-02-16"/>
+					<week number="16" startDate="2015-02-23"/>
+					<week number="17" startDate="2015-03-02"/>
+					<week number="18" startDate="2015-03-09"/>
+					<week number="19" startDate="2015-03-16"/>
+					<week number="20" startDate="2015-03-23"/>
+					<week number="21" startDate="2015-03-30"/>
+					<week number="22" startDate="2015-04-06"/>
+					<week number="23" startDate="2015-04-13"/>
+				</weeks>
+				<detailLine detailLineID="25">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>AVG. ALL WKS</program>
+					<comment>TP</comment>
+					<network>
+						<name>DISC-TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6530">DISC</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">DISC-TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">13.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.7</value>
+						<value type="Impressions">383</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">2613.00</cost>
+						<spots>201</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="26">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>AVG. ALL WKS&lt;</program>
+					<comment>TP</comment>
+					<network>
+						<name>ESPN-TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6204">ESPN</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">ESPN-TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">13.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.7</value>
+						<value type="Impressions">344</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">2613.00</cost>
+						<spots>201</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="28">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>AVG. ALL WKS&lt;</program>
+					<comment>TP</comment>
+					<network>
+						<name>TNT -TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6390">TNT</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">TNT -TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">13.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">1.4</value>
+						<value type="Impressions">727</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">2613.00</cost>
+						<spots>201</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="29">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>VARIOUS</program>
+					<comment>TP</comment>
+					<network>
+						<name>USA -TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6217">USA</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">USA -TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">13.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">1.1</value>
+						<value type="Impressions">590</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">2613.00</cost>
+						<spots>201</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="24">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>VARIOUS</program>
+					<comment>TP</comment>
+					<network>
+						<name>HGTV-TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="8920">HGTV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">HGTV-TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">13.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.7</value>
+						<value type="Impressions">364</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">2613.00</cost>
+						<spots>201</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+				<detailLine detailLineID="27">
+					<startTime>17:00:00</startTime>
+					<endTime>23:00:00</endTime>
+					<startDay>M</startDay>
+					<dayOfWeek>
+						<Monday>Y</Monday>
+						<Tuesday>Y</Tuesday>
+						<Wednesday>Y</Wednesday>
+						<Thursday>Y</Thursday>
+						<Friday>Y</Friday>
+						<Saturday>Y</Saturday>
+						<Sunday>Y</Sunday>
+					</dayOfWeek>
+					<length>PT30S</length>
+					<daypartCode>RT</daypartCode>
+					<program>AVG. ALL WKS&lt;</program>
+					<comment>TP</comment>
+					<network>
+						<name>CNN -TV</name>
+						<ID>
+							<code codeOwner="Spotcable" codeDescription="6202">CNN</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Station">CNN -TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Band">TV</code>
+						</ID>
+						<ID>
+							<code codeOwner="Strata" codeDescription="Detail Flags">domPg0</code>
+						</ID>
+					</network>
+					<spotCost currency="USD">13.00</spotCost>
+					<demoValue demoRank="1">
+						<value type="Ratings">0.7</value>
+						<value type="Impressions">350</value>
+					</demoValue>
+					<totals>
+						<cost currency="USD">2613.00</cost>
+						<spots>201</spots>
+					</totals>
+					<spot>
+						<weekNumber>1</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>2</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>3</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>4</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>5</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>6</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>7</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>8</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>9</weekNumber>
+						<quantity>12</quantity>
+					</spot>
+					<spot>
+						<weekNumber>10</weekNumber>
+						<quantity>13</quantity>
+					</spot>
+					<spot>
+						<weekNumber>11</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>12</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>13</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>14</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>15</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>16</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>17</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>18</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>19</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>20</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>21</weekNumber>
+						<quantity>0</quantity>
+					</spot>
+					<spot>
+						<weekNumber>22</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+					<spot>
+						<weekNumber>23</weekNumber>
+						<quantity>14</quantity>
+					</spot>
+				</detailLine>
+			</systemOrder>
+		</order>
+	</campaign>
+</adx>

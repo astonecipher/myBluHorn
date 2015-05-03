@@ -1,0 +1,31 @@
+body { }
+
+/* = MAIN WRAPPER
+----------------------------------------------------------------------------------------------------------------------*/
+.buzz-calendar .main-wrapper { width: 960px; margin: 0 auto; text-align: left }
+
+.buzz-calendar h3 { font-size: 31px }
+.buzz-calendar h3, p, pre { margin: 10px 0 }
+.buzz-calendar .syntaxhighlighter { padding: 5px 0 }
+
+/* = MISCELLANEOUS
+----------------------------------------------------------------------------------------------------------------------*/
+.buzz-calendar .align-center   { text-align: center }
+.buzz-calendar .align-left     { text-align: left }
+.buzz-calendar .align-right    { text-align: right }
+.buzz-calendar .block          { display: block }
+.buzz-calendar .bottom         { margin-bottom: 0; padding-bottom: 0 }
+.buzz-calendar .center         { text-align: center }
+.buzz-calendar .clear          { clear: both }
+.buzz-calendar .first          { margin-left: 0; padding-left: 0 }
+.buzz-calendar .hidden         { visibility: hidden }
+.buzz-calendar .highlight      { background: #ccf }
+.buzz-calendar .inline         { display: inline }
+.buzz-calendar .last           { margin-right: 0; padding-right: 0 }
+.buzz-calendar .left           { float: left }
+.buzz-calendar .none           { display: none }
+.buzz-calendar .nowrap         { white-space: nowrap }
+.buzz-calendar .right          { float: right }
+.buzz-calendar.stretch        { width: 100% }
+.buzz-calendar .top            { margin-top: 0; padding-top: 0 }
+.buzz-calendar .visible        { visibility: visible }

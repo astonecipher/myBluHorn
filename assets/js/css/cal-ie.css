@@ -1,0 +1,7 @@
+#header{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#353535', endColorstr='#171717',GradientType=0 );}
+.carousel .mask .slide a{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#807c79', endColorstr='#5a5653',GradientType=0 );}
+.carousel .mask .slide a:hover,
+.carousel .mask .slide.active a{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#575654', endColorstr='#353334',GradientType=0 );}
+.column .container{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#e28a26', endColorstr='#bb731f',GradientType=0 );}
+.article{filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f89d33', endColorstr='#de892d',GradientType=0 );}
+#footer{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#313131', endColorstr='#121212',GradientType=0 );}

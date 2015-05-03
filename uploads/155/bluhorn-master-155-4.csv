@@ -1,0 +1,139 @@
+Vendor,Cable Zone,D of W,Time,Program Name,Rating P25+,Rating P35+,Rating W35+,Imp P25+,Imp W35+,Share P25+,PUT P25+,Share P35+,PUT P35+,Rate 1,Rate 2,Rate 3,Rate 4,Rate 5,Comments,Start Date,End Date
+LUS Fiber,Lafayette 0738,Mon-Sun,0500A-1000A,AEN,,,,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0500A-1000A,BET,0.1,,0.2,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0500A-1000A,BRVO,,,,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0500A-1000A,CNN,0.3,,0.3,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0500A-1000A,ESPN,0.3,,0,,,,,,,6,5,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0500A-1000A,FAM,0,,0,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0500A-1000A,FOOD,,,,,,,,,,2,2,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0500A-1000A,FXNC,2.1,,1.8,,,,,,,6,5,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0500A-1000A,HGTV,,,,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0500A-1000A,LIF,,,,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0500A-1000A,TBS,0.3,,0.3,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0500A-1000A,TLC,,,,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0500A-1000A,TNT,0.3,,0.2,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0500A-1000A,USA,,,,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0500A-1000A,TWC,0.3,,0.4,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,1000A-0400P,AEN,,,,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,1000A-0400P,BET,0.2,,0.3,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,1000A-0400P,BRVO,,,,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,1000A-0400P,CNN,0.2,,0.1,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,1000A-0400P,ESPN,0.1,,0,,,,,,,6,5,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,1000A-0400P,FAM,0.2,,0.5,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,1000A-0400P,FOOD,0.2,,0.3,,,,,,,2,2,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,1000A-0400P,FXNC,0.9,,1,,,,,,,6,5,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,1000A-0400P,HGTV,0.2,,0.2,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,1000A-0400P,LIF,0.3,,0.1,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,1000A-0400P,TBS,0.1,,0.1,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,1000A-0400P,TLC,0.1,,0.2,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,1000A-0400P,TNT,0.7,,1.3,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,1000A-0400P,USA,0.5,,0.4,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,1000A-0400P,TWC,0.2,,0.3,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0400P-0800P,AEN,0.4,,0.5,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0400P-0800P,BET,0.5,,0.8,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0400P-0800P,BRVO,,,,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0400P-0800P,CNN,0.2,,0.2,,,,,,,5,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0400P-0800P,ESPN,0.4,,0.3,,,,,,,7,6,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0400P-0800P,FAM,0.2,,0.1,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0400P-0800P,FOOD,0.4,,0.5,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0400P-0800P,FXNC,1.7,,1.3,,,,,,,7,6,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0400P-0800P,HGTV,0.4,,0.6,,,,,,,5,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0400P-0800P,LIF,0.5,,0.7,,,,,,,5,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0400P-0800P,TBS,0.4,,0.2,,,,,,,5,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0400P-0800P,TLC,0.2,,0.3,,,,,,,5,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0400P-0800P,TNT,0.8,,0.9,,,,,,,5,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0400P-0800P,USA,0.9,,1,,,,,,,5,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0400P-0800P,TWC,0.1,,0.3,,,,,,,4,3,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0800P-1200A,AEN,0.6,,0.7,,,,,,,5,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0800P-1200A,BET,0.7,,0.9,,,,,,,5,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0800P-1200A,BRVO,0.7,,1,,,,,,,5,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0800P-1200A,CNN,0.3,,0.3,,,,,,,5,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0800P-1200A,ESPN,1.2,,0.8,,,,,,,10,8,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0800P-1200A,FAM,0.3,,0.4,,,,,,,5,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0800P-1200A,FOOD,0.6,,1,,,,,,,5,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0800P-1200A,FXNC,1.6,,1.5,,,,,,,10,8,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0800P-1200A,HGTV,0.7,,1,,,,,,,5,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0800P-1200A,LIF,0.5,,0.9,,,,,,,4,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0800P-1200A,TBS,0.6,,0.9,,,,,,,5,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0800P-1200A,TLC,0.6,,0.9,,,,,,,5,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0800P-1200A,TNT,1.5,,0.9,,,,,,,5,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0800P-1200A,USA,1,,1,,,,,,,5,4,,,,,,
+LUS Fiber,Lafayette 0738,Mon-Sun,0800P-1200A,TWC,0.2,,0.2,,,,,,,5,4,,,,,,
+Cox 4,Lafayette,F,,Lafayette Jamboree 8.29.14,,,,,,,,,,,,,,100,,,
+Cox 4,Lafayette,F,,Episcopal v N. Vermillion 9.5.14,,,,,,,,,,,,,,100,,,
+Cox 4,Lafayette,F,,Northside v Carencro 9.12.14,,,,,,,,,,,,,,100,,,
+Cox 4,Lafayette,F,,Comeaux v Breaux Bridge 9.19.14,,,,,,,,,,,,,,100,,,
+Cox 4,Lafayette,F,,Evangel v STM 9.26.14,,,,,,,,,,,,,,100,,,
+Cox 4,Lafayette,F,,Central Catholic v Vermillion Catholic 10.3.14,,,,,,,,,,,,,,100,,,
+Cox 4,Lafayette,F,,STM v Westgate 10.10.14,,,,,,,,,,,,,,100,,,
+Cox 4,Lafayette,F,,St. Martinville v Breaux Bridge 10.17.14,,,,,,,,,,,,,,100,,,
+Cox 4,Lafayette,F,,Crowley v Rayne 10.24.14,,,,,,,,,,,,,,100,,,
+Cox 4,Lafayette,F,,Comeaux v New Iberia 10.31.14,,,,,,,,,,,,,,100,,,
+Cox,KPLC - Acadiana,Mon-Fri,0500A-0530A,7 News Early Sunrise,0.5,0.6,,,,,,,,,,,,5,,,
+Cox,KPLC - Acadiana,Mon-Fri,0530A-0700A,7 News at Sunrise,0.4,0.5,,,,,,,,,,,,5,,,
+Cox,KPLC - Acadiana,Mon-Fri,0700A-0900A,Today Show,0.3,0.3,,,,,,,,,,,,12,,,
+Cox,KPLC - Acadiana,Mon-Fri,0900A-1000A,Today Show 2 - NBC,0.1,0.1,,,,,,,,,,,,10,,,
+Cox,KPLC - Acadiana,Mon-Fri,1200P-1230P,7 News at Noon,1.3,1.9,,,,,,,,,,,,10,,,
+Cox,KPLC - Acadiana,Mon-Fri,0500P-0530P,7 News - 5,0.4,0.5,,,,,,,,,,,,12,,,
+Cox,KPLC - Acadiana,Mon-Fri,0600P-0630P,7 News - 6,0.5,0.7,,,,,,,,,,,,18,,,
+Cox,KPLC - Acadiana,Mon-Fri,1000P-1030P,7 News - 10,0.4,0.6,,,,,,,,,,,,45,,,
+Cox,KPLC - Acadiana,Mon-Fri,1030P-1130P,Tonight Show with Jimmy Fallon,0.6,0.6,,,,,,,,,,,,15,,,
+Cox,KPLC - Acadiana,M,0700P-0800P,Last Comic Standing Encore,6.3,7.7,,,,,,,,,,,,150,,5/26/14,9/15/14
+Cox,KPLC - Acadiana,M,0700P-0900P,The Voice,6.6,8.1,,,,,,,,,,,,250,,9/22/14,12/15/14
+Cox,KPLC - Acadiana,M,0800P-0900P,Last Comic Standing,6.8,8.4,,,,,,,,,,,,150,,6/2/14,9/15/14
+Cox,KPLC - Acadiana,M,0800P-1000P,American Ninja Warrior,5.8,6.6,,,,,,,,,,,,150,,5/26/14,9/15/14
+Cox,KPLC - Acadiana,M,0900P-1000P,The Blacklist,4.7,4.8,,,,,,,,,,,,200,,9/22/14,11/10/14
+Cox,KPLC - Acadiana,T,0700P-0800P,Food Fighters,1.2,2.1,,,,,,,,,,,,125,,7/22/14,9/9/14
+Cox,KPLC - Acadiana,T,0700P-0800P,Voice Results,6,8.8,,,,,,,,,,,,250,,10/14/14,12/16/14
+Cox,KPLC - Acadiana,T,0700P-0900P,The Voice,6,8.8,,,,,,,,,,,,250,,9/23/14,10/7/14
+Cox,KPLC - Acadiana,T,0800P-0900P,Marry Me / About a Boy,6,8.8,,,,,,,,,,,,150,,10/14/14,5/19/15
+Cox,KPLC - Acadiana,T,0800P-1000P,America's Got Talent,4,5.9,,,,,,,,,,,,150,,7/22/14,9/16/14
+Cox,KPLC - Acadiana,T,0900P-1000P,Chicago Fire,2,3,,,,,,,,,,,,175,,9/23/14,5/19/15
+Cox,KPLC - Acadiana,W,0700P-0800P,America's Got Talent,1.5,1.7,,,,,,,,,,,,125,,7/30/14,9/17/14
+Cox,KPLC - Acadiana,W,0700P-0800P,Mysteries of Laura,1.5,1.7,,,,,,,,,,,,125,,9/24/14,6/17/15
+Cox,KPLC - Acadiana,W,0800P-0900P,America's Got Talent Results,1.3,1.4,,,,,,,,,,,,125,,7/23/14,9/17/14
+Cox,KPLC - Acadiana,W,0800P-0900P,Law and Order SVU,1.3,1.4,,,,,,,,,,,,125,,9/24/14,6/17/15
+Cox,KPLC - Acadiana,W,0900P-1000P,Chicago PD,0.9,1.5,,,,,,,,,,,,125,,9/24/14,6/17/15
+Cox,KPLC - Acadiana,W,0900P-1000P,Taxi Brooklyn,0.9,1.5,,,,,,,,,,,,125,,6/25/14,9/17/14
+Cox,KPLC - Acadiana,R,0700P-0800P,Biggest Loser,0.4,0.5,,,,,,,,,,,,175,,10/2/14,12/4/14
+Cox,KPLC - Acadiana,R,0700P-0800P,Biggest Loser 2 Hour,0.4,0.5,,,,,,,,,,,,175,,9/11/14,9/25/14
+Cox,KPLC - Acadiana,R,0700P-0800P,Hollywood Game Night,0.4,0.5,,,,,,,,,,,,125,,5/8/14,9/4/14
+Cox,KPLC - Acadiana,R,0800P-0900P,Bad Judge / A to Z,0.3,0.6,,,,,,,,,,,,125,,10/2/14,1/29/15
+Cox,KPLC - Acadiana,R,0800P-0900P,Blacklist,0.3,0.6,,,,,,,,,,,,125,,2/5/14,12/31/36
+Cox,KPLC - Acadiana,R,0800P-0900P,Welcome to Sweden/Working the Engels,0.3,0.6,,,,,,,,,,,,125,,7/10/14,9/4/14
+Cox,KPLC - Acadiana,R,0900P-1000P,Last Comic Standing,0.5,0.6,,,,,,,,,,,,125,,5/22/14,9/18/14
+Cox,KPLC - Acadiana,R,0900P-1000P,Parenthood,0.5,0.6,,,,,,,,,,,,125,,9/25/14,1/29/15
+Cox,KPLC - Acadiana,F,0700P-0800P,America's Got Talent Encore,1.2,2.1,,,,,,,,,,,,125,,8/15/14,9/19/14
+Cox,KPLC - Acadiana,F,0700P-0800P,Dateline,1.2,2.1,,,,,,,,,,,,150,,10/24/14,5/15/15
+Cox,KPLC - Acadiana,F,0700P-0800P,NBC Encores,1.2,2.1,,,,,,,,,,,,125,,9/26/14,10/17/14
+Cox,KPLC - Acadiana,F,0800P-0900P,Grimm,2,2.1,,,,,,,,,,,,150,,10/24/14,5/15/15
+Cox,KPLC - Acadiana,F,0800P-1000P,Dateline Encores,2.1,2.6,,,,,,,,,,,,150,,8/15/14,10/17/14
+Cox,KPLC - Acadiana,F,0900P-1000P,Constantine,2.2,3,,,,,,,,,,,,150,,10/24/14,5/15/15
+Cox,KPLC - Acadiana,A,0700P-0800P,Mysteries of Laura Encore,1.2,1.7,,,,,,,,,,,,100,,9/27/14,5/16/15
+Cox,KPLC - Acadiana,A,0700P-0900P,Dateline Sat Night Mystery,0.7,1.1,,,,,,,,,,,,100,,3/8/14,9/20/14
+Cox,KPLC - Acadiana,A,0800P-0900P,Law and Order SVU Encore,0.2,0.5,,,,,,,,,,,,100,,9/27/14,5/16/15
+Cox,KPLC - Acadiana,A,0900P-1000P,Blacklist Encores,0.1,0.1,,,,,,,,,,,,100,,5/31/14,9/20/14
+Cox,KPLC - Acadiana,A,1000P-1030P,7 News Saturday Late,0.4,0.6,,,,,,,,,,,,30,,,
+Cox,KPLC - Acadiana,A,1030P-1200A,Saturday Night Live,0.9,1,,,,,,,,,,,,45,,,
+Cox,KPLC - Acadiana,U,1030P-1130P,7 News Sunday Late,3.4,2.5,,,,,,,,,,,,75,,,
+Cox,Lafayette 1984,Mon-Fri,0600A-0800A,Fox & Friends,1.4,,1.8,,,,,,,,,,,65,Fixed Programing,,
+Cox,West Acadiana 1995,Mon-Fri,0600A-0800A,Fox & Friends,1.4,,1.7,,,,,,,,,,,16,Fixed Programing,,
+Cox,Opelousas 6788,Mon-Fri,0600A-0800A,Fox & Friends,0.9,,1.2,,,,,,,,,,,16,Fixed Programing,,
+Cox,Lafayette 1984,A-U,0700A-0900A,Fox & Friends,1.4,,2,,,,,,,,,,,38,Fixed Programing,,
+Cox,West Acadiana 1995,A-U,0700A-0900A,Fox & Friends,1.4,,2,,,,,,,,,,,11,Fixed Programing,,
+Cox,Opelousas 6788,A-U,0700A-0900A,Fox & Friends,1,,1.4,,,,,,,,,,,11,Fixed Programing,,
+Cox,Lafayette 1984,Mon-Fri,0700P-0800P,The O-Reilly Factor,3.2,,4,,,,,,,,,,,100,Fixed Programing,,
+Cox,West Acadiana 1995,Mon-Fri,0700P-0800P,The O-Reilly Factor,3.1,,3.9,,,,,,,,,,,25,Fixed Programing,,
+Cox,Opelousas 6788,Mon-Fri,0700P-0800P,The O-Reilly Factor,2.1,,2.7,,,,,,,,,,,27,Fixed Programing,,
+Cox,Lafayette 1984,Mon-Fri,0800P-0900P,The Kelly File,2.1,,2.2,,,,,,,,,,,100,Fixed Programing,,
+Cox,West Acadiana 1995,Mon-Fri,0800P-0900P,The Kelly File,2.1,,2.2,,,,,,,,,,,25,Fixed Programing,,
+Cox,Opelousas 6788,Mon-Fri,0800P-0900P,The Kelly File,1.4,,1.5,,,,,,,,,,,27,Fixed Programing,,
+Cox,Lafayette 1984,Mon-Fri,0900P-1000P,Hannity,1.7,,2.5,,,,,,,,,,,100,Fixed Programing,,
+Cox,West Acadiana 1995,Mon-Fri,0900P-1000P,Hannity,1.7,,2.5,,,,,,,,,,,25,Fixed Programing,,
+Cox,Opelousas 6788,Mon-Fri,0900P-1000P,Hannity,1.2,,1.7,,,,,,,,,,,27,Fixed Programing,,
+Cox,Lafayette 1984,Mon-Fri,1000P-1100P,The O-Reilly Factor (re-air),1.2,,1,,,,,,,,,,,91,Fixed Programing,,
+Cox,West Acadiana 1995,Mon-Fri,1000P-1100P,The O-Reilly Factor (re-air),1.2,,0.9,,,,,,,,,,,22,Fixed Programing,,
+Cox,Opelousas 6788,Mon-Fri,1000P-1100P,The O-Reilly Factor (re-air),0.8,,0.6,,,,,,,,,,,22,Fixed Programing,,
+Cox,Lafayette 1984,Mon-Fri,1100P-1200A,Hannity (re-air),0.6,,0.2,,,,,,,,,,,91,Fixed Programing,,
+Cox,West Acadiana 1995,Mon-Fri,1100P-1200A,Hannity (re-air),0.6,,0.2,,,,,,,,,,,22,Fixed Programing,,
+Cox,Opelousas 6788,Mon-Fri,1100P-1200A,Hannity (re-air),0.4,,0.1,,,,,,,,,,,22,Fixed Programing,,

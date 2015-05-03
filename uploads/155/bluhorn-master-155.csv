@@ -1,0 +1,416 @@
+Vendor,Cable Zone,D of W,Time,Program Name,Rating P25+,Rating P35+,Rating W35+,Imp P25+,Imp W35+,Share P25+,PUT P25+,Share P35+,PUT P35+,Rate 1,Rate 2,Rate 3,Rate 4,Rate 5,Comments,Start Date,End Date
+KADN,,Mon-Fri,0800A-0900A,Divorce Court,0.5,,,,,3.3,14.7,,,60,45,35,30,,,,
+KADN,,Mon-Fri,0900A-1000A,Steve Harvey,0.9,,,,,6.9,12.4,,,60,45,35,30,,,,
+KADN,,Mon-Fri,1000A-1100A,Family Fued,0.7,,,,,5.4,13.6,,,60,45,35,30,,,,
+KADN,,Mon-Fri,1100A-1200P,Judge Alex,0.9,,,,,5.8,16.1,,,60,45,35,30,,,,
+KADN,,Mon-Fri,1200P-0100P,People's Court,1.4,,,,,7.9,17.3,,,60,45,35,30,,,,
+KADN,,Mon-Fri,0100P-0200P,Judge Mathis,1.7,,,,,11.5,14.6,,,60,45,35,30,,,,
+KADN,,Mon-Fri,0200P-0300P,Queen Latifah,0.6,,,,,4.8,13,,,60,45,35,30,,,,
+KADN,,Mon-Fri,0300P-0400P,Maury,1.1,,,,,8.5,13.6,,,75,60,45,35,,,,
+KADN,,Mon-Fri,0400P-0500P,Steve Harvey,1.9,,,,,10.4,17.9,,,100,75,50,35,,,,
+KADN,,Mon-Fri,0500P-0600P,Modern Family,0.4,,,,,1.5,30.5,,,100,75,50,35,,,,
+KADN,,A,0500P-0600P,Big Bang Theory,,,,,,,,,,75,60,45,45,,,,
+KADN,,Mon-Fri,0600P-0630P,Big Bang Theory,2.1,,,,,6.1,34.4,,,300,245,175,125,,,,
+KADN,,Mon-Fri,0630P-0700P,Big Bang Theory,2.6,,,,,7.5,34.7,,,350,285,205,150,,,,
+KADN,,Mon-Fri,0600P-0700P,Big Bang Theory,2.4,,,,,6.8,34.5,,,250,180,150,125,,,,
+KADN,,M,0700P-0800P,Gotham,2.5,,,,,5.5,45.5,,,450,400,350,300,,,,
+KADN,,M,0800P-0900P,Hotel Hell,3.6,,,,,7.7,46.4,,,400,350,300,250,,,,
+KADN,,T,0700P-0800P,Utopia,1.2,,,,,2.8,44,,,400,350,225,175,,,,
+KADN,,T,0800P-0900P,New Girl/Mindy Project,1.3,,,,,3.3,41.2,,,350,300,250,200,,,,
+KADN,,W,0700P-0800P,Hell's Kitchen,1.9,,,,,4.6,41.8,,,400,350,300,275,,,,
+KADN,,W,0800P-0900P,Red Band Society,2,,,,,4.3,46.5,,,400,350,300,275,,,,
+KADN,,R,0700P-0800P,Bones,3.4,,,,,8.5,40.3,,,350,300,250,225,,,,
+KADN,,R,0800P-0900P,Gracepoint,2,,,,,4.2,48.8,,,350,300,250,225,,,,
+KADN,,F,0700P-0800P,Masterchef Jr,2.3,,,,,7.4,30.8,,,200,175,150,100,,,,
+KADN,,F,0800P-0900P,Utopia,0.5,,,,,1.5,35,,,200,175,125,100,,,,
+KADN,,A,0700P-0900P,Fox Sports Specials,,,,,,,,,,250,200,150,125,,,,
+KADN,,U,0600P-0700P,American Dad/Bob's,,,,,,,,,,300,250,200,175,,,,
+KADN,,U,0700P-0800P,Simpson's/Family Guy,,,,,,,,,,300,250,200,175,,,,
+KADN,,U,0830P-0900P,Mulaney,0.2,,,,,1.1,15.6,,,200,175,130,75,,,,
+KADN,,Mon-Fri,0900P-0930P,Fox News Now,0.8,,,,,2.1,37.8,,,200,175,115,75,,,,
+KADN,,Mon-Fri,0930P-1000P,Two and a Half Men,0.5,,,,,1.4,35.5,,,80,60,40,30,,,,
+KADN,,Mon-Fri,1000P-1100P,Arsenio Hall Show,1.3,,,,,4.7,27.6,,,50,35,25,15,,,,
+KADN,,Mon-Fri,1100P-1130P,Two and a Half Men,0.2,,,,,1.4,11.6,,,25,20,15,10,,,,
+KADN,,Mon-Fri,0700A-1200P,Morning Run of Station,,,,,,,,,,,,,,35,,,
+KADN,,Mon-Fri,1200P-0600P,Daytime Run of Station,,,,,,,,,,,,,,50,,,
+KADN,,Mon-Fri,0600P-1200A,Evening Run of Station,,,,,,,,,,,,,,150,,,
+KADN,,A,1130A-0600P,Movies/Various,0.3,,,,,2.3,14.7,,,50,35,25,15,,,,
+WWL,,R,1130A-0300P,NFL Thanksgiving: Chicago @ Detroit,,14.8,,,,,,38.6,38.3,,,,,3600,,11/27/14,11/27/14
+WWL,,R,0600P-0630P,Saints Thursday Night Footbal Pre-game,,14.4,,,,,,26.5,54.2,,,,,3000,,10/30/14,10/30/14
+WWL,,R,0630P-0715P,NLF Today: Saints-Panthers,,19.2,,,,,,35.4,54.2,,,,,22000,,10/30/14,10/30/14
+WWL,,R,0630P-0725P,NFL Today,,7.2,,,,,,12.9,56,,,,,1400,,10/2/14,10/2/14
+WWL,,R,0630P-0725P,NFL Today,,7.2,,,,,,12.9,56,,,,,1400,,10/9/14,10/9/14
+WWL,,R,0630P-0725P,NFL Today,,7.2,,,,,,12.9,56,,,,,1800,,10/16/14,10/16/14
+WWL,,R,0630P-0725P,NFL Today,,7.2,,,,,,12.9,56,,,,,1800,,10/23/14,10/23/14
+WWL,,R,0725P-1015P,NFL Regular Season-Thursday Night,,19.3,,,,,,26.5,72.7,,,,,3000,,10/2/14,10/23/14
+WWL,,R,0725P-1015P,Thursday NFL: Minnesota @ Green Bay,,18.3,,,,,,25.2,72.7,,,,,3000,,10/2/14,10/2/14
+WWL,,R,0725P-1015P,Thursday NFL: Indianapolis @ Houston,,20.9,,,,,,28.7,72.7,,,,,3000,,10/9/14,10/9/14
+WWL,,R,0725P-1015P,Thursday NFL: NY Jets @ New England,,18.3,,,,,,25.2,72.7,,,,,3600,,10/16/14,10/16/14
+WWL,,R,0725P-1015P,Thursday NFL: San Diego @ Denver,,18.3,,,,,,25.2,72.7,,,,,3600,,10/23/14,10/23/14
+WWL,,R,1030P-1130P,Saints Thursday Night Footbal Post-game,,23,,,,,,47,48.8,,,,,1100,,10/30/14,10/30/14
+WWL,,F,0130PM-0500P,SEC Day After Thanksgiving: Arkansas @ Missouri,,14.1,,,,,,33.9,41.7,,,,,1675,,11/28/14,11/28/14
+WWL,,A,1030A-0200P,College Football Game,,3.2,,,,,,9,35.6,,,,,1400,,11/1/14,11/1/14
+WWL,,A,1100A-0230P,SEC 11AM Game,,3.2,,,,,,9,35.6,,,,,1300,,10/11/14,10/11/14
+WWL,,A,0100P-0500P,Army-Navy Game,,4.9,,,,,,11.7,41.3,,,,,600,,12/13/14,12/13/14
+WWL,,A,0100P-0500P,Sun Bowl,,4,,,,,,10.8,37.4,,,,,1200,,12/27/14,12/27/14
+WWL,,A,0200P-0600P,SEC Championship: LSU,,35.2,,,,,,64.2,54.8,,,,,5400,,12/6/14,12/6/14
+WWL,,A,0230P-0600P,SEC: LSU @ Auburn,,23.3,,,,,,43.6,53.4,,,,,10000,,10/4/14,10/4/14
+WWL,,A,0230P-0600P,SEC: LSU @ Florida,,23.3,,,,,,43.6,53.4,,,,,10000,,10/11/14,10/11/14
+WWL,,A,0230P-0600P,SEC on CBS: Texas A&M @ Alabama,,9.1,,,,,,20.4,44.5,,,,,1500,,10/18/14,10/18/14
+WWL,,A,0230P-0600P,SEC: Ole Miss @ LSU,,23.3,,,,,,43.6,53.4,,,,,10000,,10/25/14,10/25/14
+WWL,,A,0230P-0600P,SEC on CBS: Florida @ Georgia,,9.1,,,,,,20.4,44.5,,,,,1400,,11/1/14,11/1/14
+WWL,,A,0230P-0600P,SEC on CBS: Texas A&M @ Auburn,,10.1,,,,,,22.7,44.5,,,,,1400,,11/8/14,11/8/14
+WWL,,A,0230P-0600P,SEC on CBS: South Carolina @ Florida,,9.1,,,,,,20.4,44.5,,,,,1650,,11/15/14,11/15/14
+WWL,,A,0230P-0600P,SEC on CBS: Ole Miss @ Arkansas,,9.1,,,,,,20.4,44.5,,,,,1650,,11/22/14,11/22/14
+WWL,,A,0230P-0600P,SEC on CBS: Auburn @ Alabama,,9.1,,,,,,20.4,44.5,,,,,1675,,11/29/14,11/29/14
+WWL,,A,0630P-0700P,LSU Post Game Show,,11.1,,,,,,18.9,58.9,,,,,1400,,10/4/14,10/4/14
+WWL,,A,0630P-0700P,LSU Post Game Show,,11.1,,,,,,18.9,58.9,,,,,1400,,10/11/14,10/11/14
+WWL,,A,0630P-0700P,LSU Post Game Show,,11.1,,,,,,18.9,58.9,,,,,1400,,10/25/14,10/25/14
+WWL,,A,0630P-0700P,LSU Pre Game Show,,14.2,,,,,,26.3,54.1,,,,,1200,,11/8/14,11/8/14
+WWL,,A,0630P-0725P,NFL Today,,7.2,,,,,,12.9,56,,,,,1800,,12/20/14,12/20/14
+WWL,,A,0700P-1000P,College Football Game,,14.4,,,,,,26.4,54.6,,,,,2500,,11/1/14,11/1/14
+WWL,,A,0700P-1000P,SEC: LSU vs. Alabama,,27.8,,,,,,45.1,61.7,,,,,10000,,11/8/14,11/8/14
+WWL,,A,0725P-1015P,Saturday NFL: San Diego-San Francisco OR Phili-Washington,,18.3,,,,,,25.2,72.7,,,,,3600,,12/20/14,12/20/14
+WWL,,A,0900P-1230A,Mountain West Championship,,1.1,,,,,,2.5,43.2,,,,,600,,12/6/14,12/6/14
+WWL,,A,1000P-1100P,LSU Post Game Show,,6,,,,,,14.8,40.6,,,,,1500,,11/8/14,11/8/14
+WWL,,U,1200P-0300P,NFL: Denver @ NY Jets,,8.2,,,,,,15.7,52.1,,,,,1800,,10/12/14,10/12/14
+WWL,,U,1200P-0300P,NFL: Buffalo @ NY Jets,,8.2,,,,,,15.7,52.1,,,,,1800,,10/26/14,10/26/14
+WWL,,U,1200P-0300P,NFL: San Diego @ Miami,,8.2,,,,,,15.7,52.1,,,,,1800,,11/2/14,11/2/14
+WWL,,U,1200P-0300P,Saints vs. Cincinnati,,36.7,,,,,,68.9,53.2,,,,,12000,,11/16/14,11/16/14
+WWL,,U,1200P-0300P,NFL: Cleveland @ Atlanta,,8.2,,,,,,15.7,52.1,,,,,1800,,11/23/14,11/23/14
+WWL,,U,1200P-0300P,*NFL: Cincinnati @ Tampa,,8.2,,,,,,15.7,52.1,,,,,1800,,11/30/14,11/30/14
+WWL,,U,1200P-0300P,NFL: Pittsburgh @ Atlanta,,8.2,,,,,,15.7,52.1,,,,,1800,,12/14/14,12/14/14
+WWL,,U,1200P-0300P,*NFL: Buffalo @ New England,,8.2,,,,,,15.7,52.1,,,,,1450,,12/28/14,12/28/14
+WWL,,U,0300P-0600P,NFL: Kansas City @ San Diego,,8.2,,,,,,15.7,52.1,,,,,2400,,10/19/14,10/19/14
+WWL,,U,0305P-0600P,NFL: Denver @ Oakland,,8.2,,,,,,15.7,52.1,,,,,1800,,11/9/14,11/9/14
+WWL,,U,0305P-0600P,NFL: Buffalo @ Denver,,8.2,,,,,,15.7,52.1,,,,,1800,,12/7/14,12/7/14
+WWL,,U,0325P-0630P,NFL: Kansas City @ San Francisco,,8.2,,,,,,15.7,52.1,,,,,1800,,10/5/14,10/5/14
+WWL,,U,0325P-0630P,NFL: Indianapolis @ Pittsburgh,,8.2,,,,,,15.7,52.1,,,,,2400,,10/26/14,10/26/14
+WWL,,U,0325P-0630P,NFL: Denver @ New England,,8.2,,,,,,15.7,52.1,,,,,1800,,11/2/14,11/2/14
+WWL,,U,0325P-0630P,NFL: Miami @ Denver,,8.2,,,,,,15.7,52.1,,,,,1800,,11/23/14,11/23/14
+WWL,,U,0325P-0630P,NFL: New England @ Green Bay,,8.2,,,,,,15.7,52.1,,,,,1800,,11/30/14,11/30/14
+WWL,,U,0325P-0630P,NFL: Indianapolis @ Dallas,,8.2,,,,,,15.7,52.1,,,,,1800,,12/21/14,12/21/14
+WWL,,U,0325P-0630P,NFL: Oakland @ Denver,,8.2,,,,,,15.7,52.1,,,,,1800,,12/28/14,12/28/14
+WWL,,U,0400P-0500P,Saints Post Game Special,,11.2,,,,,,21.1,53,,,,,3000,,11/16/14,11/16/14
+WWL,,M,0700P-0730P,2 Broke Girls Season Premiere,,5.8,,,,,,8.6,67.3,,,,,1100,,10/27/14,10/27/14
+WWL,,W,0800P-0900P,Criminal Minds Season Premiere,,9.8,,,,,,14.3,68.4,,,,,1325,,10/1/14,10/1/14
+WWL,,W,0900P-1000P,Stalker Series Premiere,,8.3,,,,,,12.5,66.5,,,,,1100,,10/1/14,10/1/14
+WWL,,R,0730P-0800P,The Millers Season Premiere,,11.4,,,,,,18.2,62.9,,,,,1325,,10/30/14,10/30/14
+WWL,,R,0800P-0830P,Two & a Half Men Season Premiere,,9.3,,,,,,13.9,66.8,,,,,1350,,10/30/14,10/30/14
+WWL,,R,0830P-0900P,The McCarth`s Series Premiere,,8.4,,,,,,12.5,66.8,,,,,1350,,10/30/14,10/30/14
+WWL,,R,0900P-1000P,Elementary Season Premiere,,7.4,,,,,,11.4,64.5,,,,,1000,,10/30/14,10/30/14
+WWL,,Mon-Fri,0500A-0600A,Early Eyewitness News,,5,,,,,,26.4,19,,,,,275,,10/1/14,12/31/14
+WWL,,Mon-Fri,0600A-0700A,Eyewitness News Morning Edition,,6.5,,,,,,27.9,23.4,,,,,475,,10/1/14,12/31/14
+WWL,,Mon-Fri,0700A-0800A,Eyewitness News @ 7AM,,6.2,,,,,,25.2,24.8,,,,,450,,10/1/14,12/31/14
+WWL,,Mon-Fri,0800A-0900A,Eyewitness News @ 8AM,,5.9,,,,,,22.9,25.6,,,,,350,,10/1/14,12/31/14
+WWL,,Mon-Fri,0430A-0500A,Eyewitness News @ 4:30AM,,1.1,,,,,,11.8,9.7,,,,,25,,10/1/14,12/31/14
+WWL,,A,0600A-0800A,CBS Saturday Early Show,,1.1,,,,,,4.8,21.8,,,,,125,,10/4/14,12/27/14
+WWL,,A,0800A-0900A,Eyewitness News Saturday Morning,,2.8,,,,,,8.9,31.4,,,,,250,,10/4/14,12/27/14
+WWL,,A,0435A-0505A,Jack Hannah`s Into the Wild,,0.5,,,,,,6.5,8.1,,,,,25,,10/4/14,12/27/14
+WWL,,U,0500A-0530A,On the Money,,0.6,,,,,,4.4,12.6,,,,,25,,10/5/14,12/28/14
+WWL,,U,0530A-0600A,American Latino TV,,0.7,,,,,,4.8,14.1,,,,,25,,10/5/14,12/28/14
+WWL,,U,0600A-0700A,Eyewitness News Sunday Morning,,2.5,,,,,,14.4,17.5,,,,,175,,10/5/14,12/28/14
+WWL,,U,0800A-0930A,CBS Sunday Morning,,2.8,,,,,,9,30.8,,,,,200,,10/5/14,12/28/14
+WWL,,U,0930A-1030A,Face the Nation,,1.9,,,,,,5.9,32.9,,,,,125,,10/5/14,12/28/14
+WWL,,M-R,0305A-0430A,CBS Up to the Minute,,0.5,,,,,,5.3,9.2,,,,,25,,10/1/14,12/31/14
+WWL,,Mon-Fri,0900A-1000A,Live with Kelly & Michael,,3.7,,,,,,15.2,24.3,,,,,200,,10/1/14,12/31/14
+WWL,,Mon-Fri,1000A-1100A,Price is Right,,5.3,,,,,,20.9,25.5,,,,,375,,10/1/14,12/31/14
+WWL,,Mon-Fri,1100A-1200P,Young & the Restless,,7.4,,,,,,27.4,27,,,,,325,,10/1/14,12/31/14
+WWL,,Mon-Fri,1200P-1230P,Eyewitness Noon News,,7.7,,,,,,28.1,27.3,,,,,575,,10/1/14,12/31/14
+WWL,,Mon-Fri,1230P-0100P,Bold & Beautiful,,5.9,,,,,,21.5,27.6,,,,,375,,10/1/14,12/31/14
+WWL,,Mon-Fri,0100P-0200P,The Talk,,3.7,,,,,,13.9,26.9,,,,,375,,10/1/14,12/31/14
+WWL,,Mon-Fri,0200P-0300P,Let`s Make a Deal,,2.9,,,,,,10.3,28.3,,,,,250,,10/1/14,12/31/14
+WWL,,Mon-Fri,0300P-0400P,Dr. Oz,,2.7,,,,,,8.8,31.2,,,,,250,,10/1/14,12/31/14
+WWL,,Mon-Fri,0400P-0500P,Dr. Phil,,4.2,,,,,,11.1,37.6,,,,,275,,10/1/14,12/31/14
+WWL,,Mon-Fri,0500P-0530P,Eyewitness News @ 5PM,,9.1,,,,,,19.9,45.6,,,,,725,,10/1/14,12/31/14
+WWL,,Mon-Fri,0600P-0630P,Eyewitness News @ 6PM,,8.7,,,,,,17,51.4,,,,,800,,10/1/14,12/31/14
+WWL,,A,0500P-0530P,Eyewitness News @ 5PM,,10.7,,,,,,22.6,47.5,,,,,175,,10/4/14,12/27/14
+WWL,,A,0600P-0630P,Eyewitness News @ 6PM,,14.8,,,,,,29.4,50.4,,,,,350,,10/4/14,12/27/14
+WWL,,U,0530P-0600P,Eyewitness News @ 5:30PM,,7.3,,,,,,12.7,56.9,,,,,175,,10/5/14,12/28/14
+WWL,,Mon-Fri,0630P-0700P,Inside Edition,,7.4,,,,,,13.5,55.1,,,,,625,,10/1/14,12/31/14
+WWL,,A,0630P-0700P,Insider Weekend,,10.5,,,,,,20,52.6,,,,,300,,10/4/14,12/27/14
+WWL,,M,0700P-0800P,Big Bang Theory/MOM,,9.3,,,,,,12.7,72.8,,,,,1100,,10/6/14,12/29/14
+WWL,,M,0800P-0900P,Scorpion,,4,,,,,,5.8,68.9,,,,,1200,,10/6/14,12/29/14
+WWL,,M,0900P-1000P,NCIS: LA,,8,,,,,,12.1,65.8,,,,,1325,,10/6/14,12/29/14
+WWL,,T,0700P-0800P,NCIS,,12.6,,,,,,19.5,64.5,,,,,2000,,10/7/14,12/30/14
+WWL,,T,0800P-0900P,NCIS: New Orleans,,17.4,,,,,,24.4,71.5,,,,,2000,,10/7/14,12/30/14
+WWL,,T,0900P-1000P,Person of Interest,,9,,,,,,13.4,66.9,,,,,1300,,10/7/14,12/30/14
+WWL,,W,0700P-0800P,Survivor,,8.5,,,,,,13.3,63.9,,,,,1475,,10/1/14,12/31/14
+WWL,,W,0800P-0900P,Criminal Minds,,7.6,,,,,,11.2,68,,,,,1325,,10/1/14,12/31/14
+WWL,,W,0900P-1000P,Stalker,,7.3,,,,,,11.3,64.8,,,,,1100,,10/1/14,12/31/14
+WWL,,R,0700P-0800P,Big Bang/The Millers,,7.8,,,,,,12.7,61.2,,,,,1325,,10/30/14,12/25/14
+WWL,,R,0800P-0900P,Two & a Half Men/The McCarthy`s,,5.3,,,,,,7.8,67.5,,,,,1350,,10/30/14,12/25/14
+WWL,,R,0900P-1000P,Elementary,,5.6,,,,,,9,62.2,,,,,1000,,10/30/14,12/25/14
+WWL,,F,0700P-0800P,Amazing Race,,6.7,,,,,,11.7,57.7,,,,,875,,10/3/14,12/26/14
+WWL,,F,0800P-0900P,Hawaii Five-O,,7.4,,,,,,12.1,60.8,,,,,1000,,10/3/14,12/26/14
+WWL,,F,0900P-1000P,Blue Bloods,,9.5,,,,,,15.2,62.4,,,,,1900,,10/3/14,12/26/14
+WWL,,A,0700P-0800P,Comedytime Saturday,,4.3,,,,,,7.9,55.1,,,,,325,,10/4/14,12/27/14
+WWL,,A,0800P-0900P,Crimetime Saturday,,4.3,,,,,,7.9,53.9,,,,,425,,10/4/14,12/27/14
+WWL,,A,0900P-1000P,48 Hours,,4.9,,,,,,9.2,53.6,,,,,550,,10/4/14,12/27/14
+WWL,,U,0600P-0700P,60 Minutes,,6.2,,,,,,8.9,69.6,,,,,1375,,10/5/14,12/28/14
+WWL,,U,0700P-0800P,Madam Secretary,,6.7,,,,,,9.2,73.2,,,,,1100,,10/5/14,12/28/14
+WWL,,U,0800P-0900P,Good Wife,,5.3,,,,,,7,76.1,,,,,1100,,10/5/14,12/28/14
+WWL,,U,0900P-1000P,CSI,,7.2,,,,,,10.9,65.9,,,,,775,,10/5/14,12/28/14
+WWL,,Mon-Fri,1000P-1035P,Eyewitness News @ 10PM,,7.2,,,,,,13,55,,,,,850,,10/1/14,12/31/14
+WWL,,A,1000P-1035P,Eyewitness News @ 10PM,,11.2,,,,,,20.6,54.7,,,,,575,,10/4/14,12/27/14
+WWL,,U,1000P-1035P,Eyewitness News @ 10PM,,5.6,,,,,,9.8,57.3,,,,,575,,10/5/14,12/28/14
+WWL,,Mon-Fri,1035P-1137P,Late Show w/ David Letterman,,3.1,,,,,,7.6,41,,,,,175,,10/1/14,12/31/14
+WWL,,Mon-Fri,1137P-1210A,OMG! Insider,,1.6,,,,,,5.4,30.5,,,,,75,,10/1/14,12/31/14
+WWL,,Mon-Fri,1210A-0105A,Late Late Show w/ Craig Ferguson,,0.8,,,,,,3.1,25.3,,,,,25,,10/1/14,12/31/14
+WWL,,A,1035P-1135P,CSI: Miami,,4.6,,,,,,10.5,43.4,,,,,75,,10/4/14,12/27/14
+WWL,,A,1135P-1235A,CSI: Miami,,2.4,,,,,,7.8,30.8,,,,,50,,10/4/14,12/27/14
+WWL,,A,1235A-0105A,Inisde Edition Wknd,,1.8,,,,,,6.6,26.9,,,,,25,,10/4/14,12/27/14
+WWL,,A,0105A-0205A,Private Practice,,1.4,,,,,,6.3,21.5,,,,,25,,10/4/14,12/27/14
+WWL,,U,1035P-1105P,4th Down on Four,,3.5,,,,,,7.1,49.8,,,,,500,,10/5/14,12/28/14
+WWL,,U,1105P-1135P,Inside LSU Sports,,1.5,,,,,,4,36.7,,,,,150,,10/5/14,12/28/14
+WWL,,U,1135P-1205A,Tulane Football Coach Show,,1,,,,,,3.6,29.3,,,,,150,,10/5/14,12/28/14
+WWL,,U,1205A-1235A,In Depth with Graham Bensinger,,0.9,,,,,,4,23.5,,,,,25,,10/5/14,12/28/14
+WWL,,U,1235A-0135A,Tim McCarver Show,,0.8,,,,,,4.2,19.3,,,,,25,,10/5/14,12/28/14
+WWL,,U,0105A-0205A,Private Practice,,0.9,,,,,,5.5,17,,,,,25,,10/5/14,12/28/14
+WWL,,Mon-Fri,0205A-0305A,Dr. Oz Replay,,0.2,,,,,,1.4,14.4,,,,,25,,10/1/14,12/31/14
+WWL,,F,0305A-0405A,Kickin It,,0.1,,,,,,1.7,8.4,,,,,25,,10/3/14,12/26/14
+WWL,,A,0530A-0600A,Today`s Homeowner,,1.1,,,,,,5.7,18.4,,,,,25,,10/4/14,12/27/14
+WWL,,A,0205A-0305A,Da Vinci`s Inquest,,1,,,,,,6,15.9,,,,,25,,10/4/14,12/27/14
+WWL,,A,0205A-0305A,Da Vinci`s Inquest,,1,,,,,,6,15.9,,,,,25,,10/4/14,12/27/14
+WWL,,A,0405A-0435A,Motion,,0.6,,,,,,6.8,8.5,,,,,25,,10/4/14,12/27/14
+WWL,,U,0235A-0430A,CBS Up to the Minute,,1.2,,,,,,12,10.3,,,,,25,,10/5/14,12/28/14
+WWL,,U,0405A-0435A,Living it Up!,,1.3,,,,,,16.4,8.1,,,,,25,,10/5/14,12/28/14
+WWL,,U,0435A-0505A,Hometime,,1.6,,,,,,20.4,7.8,,,,,25,,10/5/14,12/28/14
+Vyve,Westlake 1294,Mon-Sun,0500A-1000A,AEN,,,,,,,,,,3,2,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0500A-1000A,BET,,,,,,,,,,5,4,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0500A-1000A,CNN,,,,,,,,,,5,4,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0500A-1000A,ESPN,,,,,,,,,,5,4,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0500A-1000A,FXNC,,,,,,,,,,5,4,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0500A-1000A,HGTV,,,,,,,,,,2,1,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0500A-1000A,LIF,,,,,,,,,,5,4,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0500A-1000A,TBS,,,,,,,,,,3,2,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0500A-1000A,TLC,,,,,,,,,,3,2,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0500A-1000A,TNT,,,,,,,,,,3,2,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0500A-1000A,USA,,,,,,,,,,3,2,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0500A-1000A,TWC,,,,,,,,,,3,2,,,,,,
+Vyve,Westlake 1294,Mon-Sun,1000A-0400P,AEN,,,,,,,,,,2,1,,,,,,
+Vyve,Westlake 1294,Mon-Sun,1000A-0400P,BET,,,,,,,,,,2,1,,,,,,
+Vyve,Westlake 1294,Mon-Sun,1000A-0400P,CNN,,,,,,,,,,3,2,,,,,,
+Vyve,Westlake 1294,Mon-Sun,1000A-0400P,ESPN,,,,,,,,,,3,2,,,,,,
+Vyve,Westlake 1294,Mon-Sun,1000A-0400P,FXNC,,,,,,,,,,3,2,,,,,,
+Vyve,Westlake 1294,Mon-Sun,1000A-0400P,HGTV,,,,,,,,,,2,1,,,,,,
+Vyve,Westlake 1294,Mon-Sun,1000A-0400P,LIF,,,,,,,,,,3,2,,,,,,
+Vyve,Westlake 1294,Mon-Sun,1000A-0400P,TBS,,,,,,,,,,2,1,,,,,,
+Vyve,Westlake 1294,Mon-Sun,1000A-0400P,TLC,,,,,,,,,,2,1,,,,,,
+Vyve,Westlake 1294,Mon-Sun,1000A-0400P,TNT,,,,,,,,,,2,1,,,,,,
+Vyve,Westlake 1294,Mon-Sun,1000A-0400P,USA,,,,,,,,,,2,1,,,,,,
+Vyve,Westlake 1294,Mon-Sun,1000A-0400P,TWC,,,,,,,,,,2,1,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0400P-0800P,AEN,,,,,,,,,,5,4,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0400P-0800P,BET,,,,,,,,,,6,5,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0400P-0800P,CNN,,,,,,,,,,6,5,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0400P-0800P,ESPN,,,,,,,,,,8,6,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0400P-0800P,FXNC,,,,,,,,,,8,6,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0400P-0800P,HGTV,,,,,,,,,,5,4,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0400P-0800P,LIF,,,,,,,,,,8,6,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0400P-0800P,TBS,,,,,,,,,,8,6,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0400P-0800P,TLC,,,,,,,,,,5,4,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0400P-0800P,TNT,,,,,,,,,,8,6,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0400P-0800P,USA,,,,,,,,,,8,6,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0400P-0800P,TWC,,,,,,,,,,3,2,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0800P-1200A,AEN,,,,,,,,,,6,5,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0800P-1200A,BET,,,,,,,,,,13,10,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0800P-1200A,CNN,,,,,,,,,,13,10,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0800P-1200A,ESPN,,,,,,,,,,13,10,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0800P-1200A,FXNC,,,,,,,,,,13,10,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0800P-1200A,HGTV,,,,,,,,,,9,7,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0800P-1200A,LIF,,,,,,,,,,13,10,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0800P-1200A,TBS,,,,,,,,,,13,10,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0800P-1200A,TLC,,,,,,,,,,6,5,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0800P-1200A,TNT,,,,,,,,,,13,10,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0800P-1200A,USA,,,,,,,,,,13,10,,,,,,
+Vyve,Westlake 1294,Mon-Sun,0800P-1200A,TWC,,,,,,,,,,5,4,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0500A-1000A,AEN,,,,,,,,,,3,2,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0500A-1000A,CNN,,,,,,,,,,3,2,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0500A-1000A,ESPN,,,,,,,,,,4,3,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0500A-1000A,FXNC,,,,,,,,,,4,3,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0500A-1000A,HGTV,,,,,,,,,,3,2,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0500A-1000A,LIF,,,,,,,,,,3,2,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0500A-1000A,TBS,,,,,,,,,,4,3,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0500A-1000A,TNT,,,,,,,,,,4,3,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0500A-1000A,TWC,,,,,,,,,,3,2,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0500A-1000A,USA,,,,,,,,,,4,3,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,1000A-0400P,AEN,,,,,,,,,,2,1,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,1000A-0400P,CNN,,,,,,,,,,2,1,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,1000A-0400P,ESPN,,,,,,,,,,3,2,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,1000A-0400P,FXNC,,,,,,,,,,3,2,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,1000A-0400P,HGTV,,,,,,,,,,2,1,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,1000A-0400P,LIF,,,,,,,,,,2,1,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,1000A-0400P,TBS,,,,,,,,,,3,2,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,1000A-0400P,TNT,,,,,,,,,,3,2,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,1000A-0400P,TWC,,,,,,,,,,2,1,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,1000A-0400P,USA,,,,,,,,,,3,2,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0400P-0800P,AEN,,,,,,,,,,3,2,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0400P-0800P,CNN,,,,,,,,,,3,2,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0400P-0800P,ESPN,,,,,,,,,,4,3,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0400P-0800P,FXNC,,,,,,,,,,4,3,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0400P-0800P,HGTV,,,,,,,,,,3,2,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0400P-0800P,LIF,,,,,,,,,,3,2,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0400P-0800P,TBS,,,,,,,,,,4,3,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0400P-0800P,TNT,,,,,,,,,,4,3,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0400P-0800P,TWC,,,,,,,,,,3,2,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0400P-0800P,USA,,,,,,,,,,4,3,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0800P-1200A,AEN,,,,,,,,,,5,4,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0800P-1200A,CNN,,,,,,,,,,5,4,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0800P-1200A,ESPN,,,,,,,,,,6,5,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0800P-1200A,FXNC,,,,,,,,,,6,5,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0800P-1200A,HGTV,,,,,,,,,,5,4,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0800P-1200A,LIF,,,,,,,,,,5,4,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0800P-1200A,TBS,,,,,,,,,,6,5,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0800P-1200A,TNT,,,,,,,,,,6,5,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0800P-1200A,TWC,,,,,,,,,,5,4,,,,,,
+Vyve,Lake Arthur 1295,Mon-Sun,0800P-1200A,USA,,,,,,,,,,6,5,,,,,,
+Cox,Global 0521,Mon-Fri,0500A-0900A,AEN,,,,,,,,,,,,,,4,,,
+Cox,Global 0521,Mon-Fri,0500A-0900A,TWC,0.3,,0.4,471,288,,,,,,,,,12,,,
+Cox,Global 0521,Mon-Fri,0900A-0300P,AEN,,,,,,,,,,,,,,6,,,
+Cox,Global 0521,Mon-Fri,0900A-0300P,TWC,0.2,,0.3,331,202,,,,,,,,,11,,,
+Cox,Global 0521,Mon-Sun,0300P-0700P,AEN,0.4,,0.5,592,350,,,,,,,,,20,,,
+Cox,Global 0521,Mon-Sun,0300P-0700P,TWC,0.1,,0.3,237,176,,,,,,,,,17,,,
+Cox,Global 0521,Mon-Sun,0700P-1200A,AEN,0.6,,0.7,967,493,,,,,,,,,60,,,
+Cox,Global 0521,Mon-Sun,0700P-1200A,TWC,0.2,,0.2,316,124,,,,,,,,,29,,,
+Cox,Global 0521,A-U,0600A-0300P,AEN,0.3,,0.4,530,314,,,,,,,,,13,,,
+Cox,Global 0521,A-U,0600A-0300P,TWC,0.5,,,874,256,,,,,,,,,11,,,
+Cox,Lafayette 1984,Mon-Fri,0500A-0900A,BET,0.1,,0.2,73,70,,,,,,,,,7,,,
+Cox,Lafayette 1984,Mon-Fri,0500A-0900A,BRVO,,,,,,,,,,,,,,7,,,
+Cox,Lafayette 1984,Mon-Fri,0500A-0900A,CNN,0.3,,0.3,296,141,,,,,,,,,22,,,
+Cox,Lafayette 1984,Mon-Fri,0500A-0900A,ESPN,0.3,,,261,4,,,,,,,,,30,,,
+Cox,Lafayette 1984,Mon-Fri,0500A-0900A,FAM,,,,,,,,,,,,,,5,,,
+Cox,Lafayette 1984,Mon-Fri,0500A-0900A,FOOD,,,,,,,,,,,,,,7,,,
+Cox,Lafayette 1984,Mon-Fri,0500A-0900A,FXNC,2.1,,1.8,2018,747,,,,,,,,,50,,,
+Cox,Lafayette 1984,Mon-Fri,0500A-0900A,HGTV,,,,,,,,,,,,,,9,,,
+Cox,Lafayette 1984,Mon-Fri,0500A-0900A,LIF,,,,,,,,,,,,,,12,,,
+Cox,Lafayette 1984,Mon-Fri,0500A-0900A,TBS,0.3,,0.3,243,103,,,,,,,,,11,,,
+Cox,Lafayette 1984,Mon-Fri,0500A-0900A,TLC,,,,,,,,,,,,,,7,,,
+Cox,Lafayette 1984,Mon-Fri,0500A-0900A,TNT,0.3,,0.2,321,91,,,,,,,,,12,,,
+Cox,Lafayette 1984,Mon-Fri,0500A-0900A,USA,,,,,,,,,,,,,,14,,,
+Cox,Lafayette 1984,Mon-Fri,0900A-0300P,BET,0.2,,0.3,146,118,,,,,,,,,12,,,
+Cox,Lafayette 1984,Mon-Fri,0900A-0300P,BRVO,,,,,,,,,,,,,,9,,,
+Cox,Lafayette 1984,Mon-Fri,0900A-0300P,CNN,0.2,,0.1,163,56,,,,,,,,,12,,,
+Cox,Lafayette 1984,Mon-Fri,0900A-0300P,ESPN,0.1,,,131,4,,,,,,,,,30,,,
+Cox,Lafayette 1984,Mon-Fri,0900A-0300P,FAM,0.2,,0.5,229,203,,,,,,,,,7,,,
+Cox,Lafayette 1984,Mon-Fri,0900A-0300P,FOOD,0.2,,0.3,166,119,,,,,,,,,13,,,
+Cox,Lafayette 1984,Mon-Fri,0900A-0300P,FXNC,0.9,,1,900,393,,,,,,,,,25,,,
+Cox,Lafayette 1984,Mon-Fri,0900A-0300P,HGTV,0.2,,0.2,157,69,,,,,,,,,18,,,
+Cox,Lafayette 1984,Mon-Fri,0900A-0300P,LIF,0.3,,0.1,256,26,,,,,,,,,18,,,
+Cox,Lafayette 1984,Mon-Fri,0900A-0300P,TBS,0.1,,0.1,115,32,,,,,,,,,13,,,
+Cox,Lafayette 1984,Mon-Fri,0900A-0300P,TLC,0.1,,0.2,116,74,,,,,,,,,8,,,
+Cox,Lafayette 1984,Mon-Fri,0900A-0300P,TNT,0.7,,1.3,693,516,,,,,,,,,19,,,
+Cox,Lafayette 1984,Mon-Fri,0900A-0300P,USA,0.5,,0.4,449,178,,,,,,,,,19,,,
+Cox,Lafayette 1984,Mon-Sun,0300P-0700P,BET,0.5,,0.8,449,323,,,,,,,,,14,,,
+Cox,Lafayette 1984,Mon-Sun,0300P-0700P,BRVO,,,,,,,,,,,,,,13,,,
+Cox,Lafayette 1984,Mon-Sun,0300P-0700P,CNN,0.2,,0.2,160,92,,,,,,,,,22,,,
+Cox,Lafayette 1984,Mon-Sun,0300P-0700P,ESPN,0.4,,0.3,386,141,,,,,,,,,45,,,
+Cox,Lafayette 1984,Mon-Sun,0300P-0700P,FAM,0.2,,0.1,160,52,,,,,,,,,9,,,
+Cox,Lafayette 1984,Mon-Sun,0300P-0700P,FOOD,0.4,,0.5,338,201,,,,,,,,,16,,,
+Cox,Lafayette 1984,Mon-Sun,0300P-0700P,FXNC,1.7,,1.3,1629,539,,,,,,,,,39,,,
+Cox,Lafayette 1984,Mon-Sun,0300P-0700P,HGTV,0.4,,0.6,389,244,,,,,,,,,27,,,
+Cox,Lafayette 1984,Mon-Sun,0300P-0700P,LIF,0.5,,0.7,290,,,,,,,,,,27,,,
+Cox,Lafayette 1984,Mon-Sun,0300P-0700P,TBS,0.4,,0.2,381,94,,,,,,,,,28,,,
+Cox,Lafayette 1984,Mon-Sun,0300P-0700P,TLC,0.2,,0.3,187,121,,,,,,,,,14,,,
+Cox,Lafayette 1984,Mon-Sun,0300P-0700P,TNT,0.8,,0.9,782,381,,,,,,,,,30,,,
+Cox,Lafayette 1984,Mon-Sun,0300P-0700P,USA,0.9,,1,867,409,,,,,,,,,30,,,
+Cox,Lafayette 1984,Mon-Sun,0700P-1200A,BET,0.7,,0.9,631,345,,,,,,,,,23,,,
+Cox,Lafayette 1984,Mon-Sun,0700P-1200A,BRVO,0.7,,1,658,407,,,,,,,,,23,,,
+Cox,Lafayette 1984,Mon-Sun,0700P-1200A,CNN,0.3,,0.3,295,131,,,,,,,,,44,,,
+Cox,Lafayette 1984,Mon-Sun,0700P-1200A,ESPN,1.2,,0.8,1187,322,,,,,,,,,88,,,
+Cox,Lafayette 1984,Mon-Sun,0700P-1200A,FAM,0.3,,0.4,309,145,,,,,,,,,15,,,
+Cox,Lafayette 1984,Mon-Sun,0700P-1200A,FOOD,0.6,,1,611,396,,,,,,,,,25,,,
+Cox,Lafayette 1984,Mon-Sun,0700P-1200A,FXNC,1.6,,1.5,1512,603,,,,,,,,,69,,,
+Cox,Lafayette 1984,Mon-Sun,0700P-1200A,HGTV,0.7,,1,627,387,,,,,,,,,48,,,
+Cox,Lafayette 1984,Mon-Sun,0700P-1200A,LIF,0.5,,0.9,528,349,,,,,,,,,52,,,
+Cox,Lafayette 1984,Mon-Sun,0700P-1200A,TBS,0.9,,0.8,828,304,,,,,,,,,54,,,
+Cox,Lafayette 1984,Mon-Sun,0700P-1200A,TLC,0.6,,0.9,554,353,,,,,,,,,21,,,
+Cox,Lafayette 1984,Mon-Sun,0700P-1200A,TNT,1.5,,0.9,1444,383,,,,,,,,,54,,,
+Cox,Lafayette 1984,Mon-Sun,0700P-1200A,USA,1,,1,1010,418,,,,,,,,,55,,,
+Cox,Lafayette 1984,A-U,0600A-0300P,BET,0.9,,1.3,863,524,,,,,,,,,10,,,
+Cox,Lafayette 1984,A-U,0600A-0300P,BRVO,,,,,,,,,,,,,,10,,,
+Cox,Lafayette 1984,A-U,0600A-0300P,CNN,0.2,,0.3,229,117,,,,,,,,,17,,,
+Cox,Lafayette 1984,A-U,0600A-0300P,ESPN,0.5,,0.3,453,136,,,,,,,,,43,,,
+Cox,Lafayette 1984,A-U,0600A-0300P,FAM,0.6,,0.4,593,142,,,,,,,,,11,,,
+Cox,Lafayette 1984,A-U,0600A-0300P,FOOD,1,,1.6,935,661,,,,,,,,,12,,,
+Cox,Lafayette 1984,A-U,0600A-0300P,FXNC,1.7,,1,1619,421,,,,,,,,,29,,,
+Cox,Lafayette 1984,A-U,0600A-0300P,HGTV,0.9,,1.3,862,524,,,,,,,,,24,,,
+Cox,Lafayette 1984,A-U,0600A-0300P,LIF,0.5,,0.8,493,343,,,,,,,,,24,,,
+Cox,Lafayette 1984,A-U,0600A-0300P,TBS,0.4,,0.3,357,124,,,,,,,,,20,,,
+Cox,Lafayette 1984,A-U,0600A-0300P,TLC,0.2,,0.3,175,118,,,,,,,,,12,,,
+Cox,Lafayette 1984,A-U,0600A-0300P,TNT,0.6,,0.5,587,212,,,,,,,,,24,,,
+Cox,Lafayette 1984,A-U,0600A-0300P,USA,0.5,,0.6,504,239,,,,,,,,,22,,,
+Cox,Opelousas 6788,Mon-Fri,0500A-0900A,AEN,,,,,,,,,,,,,,2,,,
+Cox,Opelousas 6788,Mon-Fri,0500A-0900A,BET,0.1,,0.2,12,12,,,,,,,,,3,,,
+Cox,Opelousas 6788,Mon-Fri,0500A-0900A,BRVO,0.1,,0.2,12,12,,,,,,,,,2,,,
+Cox,Opelousas 6788,Mon-Fri,0500A-0900A,CNN,0.3,,0.4,50,24,,,,,,,,,6,,,
+Cox,Opelousas 6788,Mon-Fri,0500A-0900A,ESPN,0.3,,,44,1,,,,,,,,,10,,,
+Cox,Opelousas 6788,Mon-Fri,0500A-0900A,FAM,,,,,,,,,,,,,,2,,,
+Cox,Opelousas 6788,Mon-Fri,0500A-0900A,FOOD,,,,,,,,,,,,,,3,,,
+Cox,Opelousas 6788,Mon-Fri,0500A-0900A,FXNC,2.3,,2,344,127,,,,,,,,,13,,,
+Cox,Opelousas 6788,Mon-Fri,0500A-0900A,HGTV,,,,,,,,,,,,,,3,,,
+Cox,Opelousas 6788,Mon-Fri,0500A-0900A,LIF,,,,,,,,,,,,,,4,,,
+Cox,Opelousas 6788,Mon-Fri,0500A-0900A,TBS,0.3,,0.3,41,18,,,,,,,,,3,,,
+Cox,Opelousas 6788,Mon-Fri,0500A-0900A,TLC,,,,,,,,,,,,,,3,,,
+Cox,Opelousas 6788,Mon-Fri,0500A-0900A,TNT,0.4,,0.2,55,15,,,,,,,,,3,,,
+Cox,Opelousas 6788,Mon-Fri,0500A-0900A,TWC,0.3,,0.4,42,26,,,,,,,,,3,,,
+Cox,Opelousas 6788,Mon-Fri,0500A-0900A,USA,,,,,,,,,,,,,,4,,,
+Cox,Opelousas 6788,Mon-Fri,0900A-0300P,AEN,,,,,,,,,,,,,,2,,,
+Cox,Opelousas 6788,Mon-Fri,0900A-0300P,BET,0.2,,0.3,25,20,,,,,,,,,12,,,
+Cox,Opelousas 6788,Mon-Fri,0900A-0300P,BRVO,,,,,,,,,,,,,,2,,,
+Cox,Opelousas 6788,Mon-Fri,0900A-0300P,CNN,0.2,,0.2,28,10,,,,,,,,,4,,,
+Cox,Opelousas 6788,Mon-Fri,0900A-0300P,ESPN,0.2,,,22,1,,,,,,,,,10,,,
+Cox,Opelousas 6788,Mon-Fri,0900A-0300P,FAM,0.3,,0.6,39,34,,,,,,,,,2,,,
+Cox,Opelousas 6788,Mon-Fri,0900A-0300P,FOOD,0.2,,0.3,28,20,,,,,,,,,4,,,
+Cox,Opelousas 6788,Mon-Fri,0900A-0300P,FXNC,1,,1.1,153,67,,,,,,,,,8,,,
+Cox,Opelousas 6788,Mon-Fri,0900A-0300P,HGTV,0.2,,0.2,27,12,,,,,,,,,6,,,
+Cox,Opelousas 6788,Mon-Fri,0900A-0300P,LIF,0.3,,0.1,44,4,,,,,,,,,6,,,
+Cox,Opelousas 6788,Mon-Fri,0900A-0300P,TBS,0.1,,0.1,20,5,,,,,,,,,4,,,
+Cox,Opelousas 6788,Mon-Fri,0900A-0300P,TLC,0.1,,0.2,20,13,,,,,,,,,3,,,
+Cox,Opelousas 6788,Mon-Fri,0900A-0300P,TNT,0.8,,1.4,118,88,,,,,,,,,4,,,
+Cox,Opelousas 6788,Mon-Fri,0900A-0300P,TWC,0.2,,0.3,29,18,,,,,,,,,3,,,
+Cox,Opelousas 6788,Mon-Fri,0900A-0300P,USA,0.5,,0.5,76,30,,,,,,,,,6,,,
+Cox,Opelousas 6788,Mon-Sun,0300P-0700P,AEN,0.4,,0.6,58,34,,,,,,,,,3,,,
+Cox,Opelousas 6788,Mon-Sun,0300P-0700P,BET,0.5,,0.9,76,55,,,,,,,,,5,,,
+Cox,Opelousas 6788,Mon-Sun,0300P-0700P,BRVO,,,,,,,,,,,,,,4,,,
+Cox,Opelousas 6788,Mon-Sun,0300P-0700P,CNN,0.2,,0.3,27,16,,,,,,,,,9,,,
+Cox,Opelousas 6788,Mon-Sun,0300P-0700P,ESPN,0.4,,0.4,66,24,,,,,,,,,15,,,
+Cox,Opelousas 6788,Mon-Sun,0300P-0700P,FAM,0.2,,0.1,27,9,,,,,,,,,3,,,
+Cox,Opelousas 6788,Mon-Sun,0300P-0700P,FOOD,0.4,,0.5,58,34,,,,,,,,,5,,,
+Cox,Opelousas 6788,Mon-Sun,0300P-0700P,FXNC,1.9,,1.5,277,92,,,,,,,,,14,,,
+Cox,Opelousas 6788,Mon-Sun,0300P-0700P,HGTV,0.4,,0.7,66,42,,,,,,,,,7,,,
+Cox,Opelousas 6788,Mon-Sun,0300P-0700P,LIF,0.6,,1,90,59,,,,,,,,,8,,,
+Cox,Opelousas 6788,Mon-Sun,0300P-0700P,TBS,0.4,,0.3,65,16,,,,,,,,,7,,,
+Cox,Opelousas 6788,Mon-Sun,0300P-0700P,TLC,0.2,,0.3,32,21,,,,,,,,,4,,,
+Cox,Opelousas 6788,Mon-Sun,0300P-0700P,TNT,0.9,,1,133,65,,,,,,,,,8,,,
+Cox,Opelousas 6788,Mon-Sun,0300P-0700P,TWC,0.1,,0.3,21,16,,,,,,,,,6,,,
+Cox,Opelousas 6788,Mon-Sun,0300P-0700P,USA,1,,1.1,148,70,,,,,,,,,8,,,
+Cox,Opelousas 6788,Mon-Sun,0700P-1200A,AEN,0.6,,0.8,95,48,,,,,,,,,12,,,
+Cox,Opelousas 6788,Mon-Sun,0700P-1200A,BET,0.7,,0.9,107,59,,,,,,,,,9,,,
+Cox,Opelousas 6788,Mon-Sun,0700P-1200A,BRVO,0.8,,1.1,112,69,,,,,,,,,8,,,
+Cox,Opelousas 6788,Mon-Sun,0700P-1200A,CNN,0.3,,0.4,50,22,,,,,,,,,14,,,
+Cox,Opelousas 6788,Mon-Sun,0700P-1200A,ESPN,1.4,,0.9,202,55,,,,,,,,,23,,,
+Cox,Opelousas 6788,Mon-Sun,0700P-1200A,FAM,0.4,,0.4,53,25,,,,,,,,,6,,,
+Cox,Opelousas 6788,Mon-Sun,0700P-1200A,FOOD,0.7,,1.1,104,67,,,,,,,,,8,,,
+Cox,Opelousas 6788,Mon-Sun,0700P-1200A,FXNC,1.7,,1.7,257,103,,,,,,,,,20,,,
+Cox,Opelousas 6788,Mon-Sun,0700P-1200A,HGTV,0.7,,1.1,107,66,,,,,,,,,14,,,
+Cox,Opelousas 6788,Mon-Sun,0700P-1200A,LIF,0.6,,1,90,59,,,,,,,,,14,,,
+Cox,Opelousas 6788,Mon-Sun,0700P-1200A,TBS,1,,0.8,141,52,,,,,,,,,15,,,
+Cox,Opelousas 6788,Mon-Sun,0700P-1200A,TLC,0.6,,1,94,60,,,,,,,,,6,,,
+Cox,Opelousas 6788,Mon-Sun,0700P-1200A,TNT,1.7,,1,246,65,,,,,,,,,17,,,
+Cox,Opelousas 6788,Mon-Sun,0700P-1200A,TWC,0.2,,0.2,28,11,,,,,,,,,9,,,
+Cox,Opelousas 6788,Mon-Sun,0700P-1200A,USA,1.2,,1.1,172,71,,,,,,,,,17,,,
+Cox,Opelousas 6788,A-U,0600A-0300P,AEN,0.4,,0.5,52,31,,,,,,,,,3,,,
+Cox,Opelousas 6788,A-U,0600A-0300P,BET,1,,1.4,147,89,,,,,,,,,4,,,
+Cox,Opelousas 6788,A-U,0600A-0300P,BRVO,,,,,,,,,,,,,,2,,,
+Cox,Opelousas 6788,A-U,0600A-0300P,CNN,0.3,,0.3,39,20,,,,,,,,,6,,,
+Cox,Opelousas 6788,A-U,0600A-0300P,ESPN,0.5,,0.4,77,23,,,,,,,,,12,,,
+Cox,Opelousas 6788,A-U,0600A-0300P,FAM,0.7,,0.4,101,24,,,,,,,,,2,,,
+Cox,Opelousas 6788,A-U,0600A-0300P,FOOD,1.1,,1.8,159,113,,,,,,,,,4,,,
+Cox,Opelousas 6788,A-U,0600A-0300P,FXNC,1.9,,1.2,276,72,,,,,,,,,9,,,
+Cox,Opelousas 6788,A-U,0600A-0300P,HGTV,1,,1.4,147,89,,,,,,,,,7,,,
+Cox,Opelousas 6788,A-U,0600A-0300P,LIF,0.6,,0.9,84,58,,,,,,,,,8,,,
+Cox,Opelousas 6788,A-U,0600A-0300P,TBS,0.4,,0.3,61,21,,,,,,,,,6,,,
+Cox,Opelousas 6788,A-U,0600A-0300P,TLC,0.2,,0.3,30,20,,,,,,,,,3,,,
+Cox,Opelousas 6788,A-U,0600A-0300P,TNT,0.7,,0.6,100,36,,,,,,,,,7,,,
+Cox,Opelousas 6788,A-U,0600A-0300P,TWC,0.5,,0.4,78,23,,,,,,,,,2,,,
+Cox,Opelousas 6788,A-U,0600A-0300P,USA,0.6,,0.7,86,41,,,,,,,,,6,,,
