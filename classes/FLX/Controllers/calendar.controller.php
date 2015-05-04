@@ -10,7 +10,7 @@
  
 namespace FLX\Controllers;
 
-require_once('/var/www/html/lib/recaptcha/recaptchalib.php');
+//require_once('/lib/recaptcha/recaptchalib.php');
 
 class calendar
 {  
@@ -26,6 +26,7 @@ class calendar
 	private $registration;
 	private $transfer = false;
 	private $calendar;
+	private $agencyID;
 
 	/**
   	 * Create instance, load current info based on session info
@@ -33,22 +34,35 @@ class calendar
   	 * @return bool
   	 */
 	
-	public function __construct($db, $sessionID, $userID) {
+	public function __construct($db, $sessionID, $userID, $agencyID) {
+	    error_log("Constructor building FLX/Calendar");
+	    
+	    
 	  $this->db = $db;
 	  $this->sessionID = $sessionID;
 	  $this->auth = new \auth($db);
 	  $this->userID = $this->auth->getUserID();
+	  
+	  if ( $agencyID == '' )
+      $this->agencyID = $agencyID;
+	  else {
+	      $r = $this->db->query("select agencyID from BH_USERS where userID = '". $this->userID . "' and isSelected is TRUE");
+	      $results=$r->fetch(\PDO::FETCH_ASSOC);
+	      $this->agencyID = $results["agencyID"];
+	      error_log("AgencyID: {$this->agencyID}");
+	  }
 
-	  $this->lists = new \lists($this->db);
+
+//	  $this->lists = new \lists($this->db);
 	  	
-	  $this->calendar = new \CAL\calendar($this->db);	 
+//	  $this->calendar = new \CAL\calendar($this->db);	 
 	  	 
-  	  $this->vars["categories"]=$this->calendar->getAllCategories();
-  	  $this->vars["areas"]=$this->calendar->getAllAreas(1);
+//  	  $this->vars["categories"]=$this->Fcalendar->getAllCategories();
+//  	  $this->vars["areas"]=$this->calendar->getAllAreas(1);
 
-	  $this->vars["events"] = $this->calendar->getTopEvents(1, "2013-09-30", "2013-10-04", 3);
+//	  $this->vars["events"] = $this->calendar->getTopEvents(1, "2013-09-30", "2013-10-04", 3);
 
-	  $this->search();
+//	  $this->search();
 
 	  	 
 	}
@@ -3206,6 +3220,7 @@ class calendar
 	
 	public function ajax($params) {
 		
+	    
 	  	  $this->view="CAL_AJAX_RESPONSE";
 		  $this->vars["response"] = $params[4]; 
 
@@ -3226,6 +3241,17 @@ class calendar
 				 }
 			  }
 			}
+			
+			if ( $params[2] == 'campaign')
+			{
+			    error_log("If statement passed in ajax.");
+			    $this->getCampaigns();
+			    
+			}else{ 
+			    error_log("If statement failed in ajax.");
+			    foreach ( $params as $k => $v )
+			        error_log( "$k => $v");
+			}
 		  }
 		  
 		  else {
@@ -3238,6 +3264,33 @@ class calendar
 	
 		  return true;		
 	}
+	public function getCampaigns()
+	{
+	    error_log("AgencyID:" . $this->agencyID);
+	    error_log("In getCampaigns of controller");
+	    $campaigns = new \BH\campaign($this->db, $this->agencyID, $this->userID);
+        error_log( "getCampaigns touched");
+        $results = $campaigns->getCampaignsByStatusAndDateRange($_GET['start'], $_GET['end']);
+       // $result = json_encode( $results );
+        error_log( $results );
+         $this->view = "ajax-response";
+         
+         foreach ($results as $result) {
+//             error_log(print_r($result));
+            
+            $events[] = array(
+                'title' => $result['name'],
+                'start' => $result['flightStart'],
+                'end' => $result['flightEnd']
+            );
+        }
 
+        $event = json_encode( $events );
+        
+        $this->vars["response"] = $event;
+	    
+        return false;
+
+	}
 }
 ?>

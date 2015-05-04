@@ -24,7 +24,6 @@ class campaign
 	public function __construct($db, $agencyID, $userID) {
 	  $this->db = $db;
 	  $this->agencyID = $agencyID;
-	  error_log("\n\n\n$agencyID\n\n\n");
 	  $this->userID = $userID;
 	  $this->sessionID = session_id();
 	  
@@ -122,7 +121,7 @@ class campaign
 		  	if (intval($campaign["clientID"])>0) {
 				if ($campaign["agencyID"] == $this->agencyID) {
 					$result = $this->db->update("BH_CAMPAIGNS", "id", $campaignID,  $campaign);	
-// 					error_log("Save Campaign: " . $this->db->lastQuery());
+					error_log("Save Campaign: " . $this->db->lastQuery());
 					if ($result) {
 						return true;	
 					}
@@ -150,7 +149,7 @@ class campaign
 		 
 		$results=$r->fetch(\PDO::FETCH_ASSOC);
 
-// 		error_log("Campaign Exists: " . $this->db->lastQuery());
+		error_log("Campaign Exists: " . $this->db->lastQuery());
 
 		if ($results["id"]) {
 				$this->campaignID = $results["id"];
@@ -172,7 +171,7 @@ class campaign
 		 
 		$results=$r->fetch(\PDO::FETCH_ASSOC);
 
-// 		error_log("Campaign Name Unique?: " . $this->db->lastQuery());
+		error_log("Campaign Name Unique?: " . $this->db->lastQuery());
 
 		if ($results["name"] == $campaign["name"]) {
 				return false;
@@ -202,7 +201,7 @@ class campaign
 		 
 		$results=$r->fetch(\PDO::FETCH_ASSOC);
 
-// 		error_log("Campaign Exists: " . $this->db->lastQuery());
+		error_log("Campaign Exists: " . $this->db->lastQuery());
 
 		if ($results["name"] == $campaign["name"]) {
 				$this->campaignID = $results["id"];
@@ -225,7 +224,7 @@ class campaign
 		 
 		$results=$r->fetch(\PDO::FETCH_ASSOC);
 
-// 		error_log("Campaign Exists By RefID: " . $this->db->lastQuery());
+		error_log("Campaign Exists By RefID: " . $this->db->lastQuery());
 
 		if ($results["name"] == $campaign["name"]) {
 				$this->campaignID = $results["id"];
@@ -259,7 +258,7 @@ class campaign
 						BH_CAMPAIGNS.flightStart desc");
 	      $results=$r->fetchAll();
 	
-// 		  error_log($this->db->lastQuery());
+		  error_log($this->db->lastQuery());
 			
 		  return $results; 
 	  
@@ -300,7 +299,7 @@ class campaign
 						BH_CAMPAIGNS.flightStart desc");
 	      $results=$r->fetchAll();
 	
-// 		  error_log($this->db->lastQuery());
+		  error_log($this->db->lastQuery());
 			
 		  return $results;
 	  
@@ -310,12 +309,13 @@ class campaign
 	public function getCampaignsByStatusAndDateRange( $startDate, $endDate, $status = 1) {
 	
 	    $agencyIDStr = $this->db->quote($this->agencyID);
-	    
 	    error_log("AgencyID: $agencyIDStr");
 	    
 	    // Covert dateTime format to usable string
-	    $_startDate = date('Y-m-d H:i:s', strtotime("-1 month",$startDate) );
-	    $_endDate = date('Y-m-d H:i:s',strtotime("+1 month", $endDate) );
+	    $_startDate = date('Y-m-d H:i:s', $startDate);
+	    error_log( "Old startDate: $startDate, New startDate: $_startDate");
+	    $_endDate = date('Y-m-d H:i:s', $endDate);
+	    error_log( "Old endDate: $endDate, New endDate: $_endDate");
 	    
 	    $r=$this->db->query("select
 	        BH_CAMPAIGNS.*, BH_CLIENTS.name as clientName, BH_CAMPAIGNS.flightStart
@@ -326,7 +326,7 @@ class campaign
 	        on
 	        (BH_CAMPAIGNS.clientID = BH_CLIENTS.id)
 	        where
-	        BH_CAMPAIGNS.agencyID = '" . $this->agencyID . "'
+	        BH_CAMPAIGNS.agencyID = '5'
 	        and
 	        BH_CAMPAIGNS.isDeleted is FALSE
 	        and
@@ -340,7 +340,7 @@ class campaign
 
 	    $results=$r->fetchAll();
 	
-// 	    error_log($this->db->lastQuery());
+	    error_log($this->db->lastQuery());
 	    	
 			  return $results;
 	}
@@ -379,7 +379,7 @@ class campaign
 		  
 	      $results=$r->fetchAll();
 	
-// 		  error_log($this->db->lastQuery());
+		  error_log($this->db->lastQuery());
 			
 		  return $results;
 	  
@@ -394,7 +394,7 @@ class campaign
 						BH_CAMPAIGNS.flightStart desc");
 	      $results=$r->fetchAll();
 	
-// 		  error_log($this->db->lastQuery());
+		  error_log($this->db->lastQuery());
 			
 		  return $results;
 	  
@@ -407,7 +407,7 @@ class campaign
 		  $r=$this->db->query("select BH_CAMPAIGNS.*, BH_CLIENTS.name as clientName from BH_CAMPAIGNS left join BH_CLIENTS on (BH_CAMPAIGNS.clientID = BH_CLIENTS.id) where BH_CAMPAIGNS.agencyID = $agencyIDStr and BH_CAMPAIGNS.isDeleted is FALSE and BH_CAMPAIGNS.isActive is FALSE order by BH_CAMPAIGNS.flightStart desc");
 	      $results=$r->fetchAll();
 	
-// 		  error_log($this->db->lastQuery());
+		  error_log($this->db->lastQuery());
 			
 		  return $results;
 
@@ -422,7 +422,7 @@ class campaign
 						BH_CAMPAIGNS.flightStart desc");
 	      $results=$r->fetchAll();
 	
-// 		  error_log($this->db->lastQuery());
+		  error_log($this->db->lastQuery());
 			
 		  return $results;
 
@@ -438,7 +438,7 @@ class campaign
 						BH_CAMPAIGNS.flightStart desc");
 	      $results=$r->fetchAll();
 	
-// 		  error_log($this->db->lastQuery());
+		  error_log($this->db->lastQuery());
 			
 		  return $results;
 	  
@@ -457,7 +457,7 @@ class campaign
 						BH_CAMPAIGNS.flightStart desc");
 	      $results=$r->fetchAll();
 	
-// 		  error_log($this->db->lastQuery());
+		  error_log($this->db->lastQuery());
 			
 		  return $results;
 	  
@@ -472,7 +472,7 @@ class campaign
 		  $r=$this->db->query("select concat(year(flightStart),\"-\",LPAD(month(flightStart),2,'0')) as month, count(1) as total from BH_CAMPAIGNS where agencyID = $agencyIDStr and flightStart < now() and isDeleted is FALSE group by year(flightStart) desc,month(flightStart) desc limit $maxResultsStr;");
 	      $results=$r->fetchAll();
 	
-// 		  error_log($this->db->lastQuery());
+		  error_log($this->db->lastQuery());
 			
 		  return $results;
 	}
