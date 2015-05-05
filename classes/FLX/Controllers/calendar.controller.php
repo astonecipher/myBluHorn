@@ -3084,14 +3084,15 @@ class calendar
                 }
             }
             
-            if ($params[2] == 'campaign') {
-                error_log("If statement passed in ajax.");
-                $this->getCampaigns();
-            } else {
-                error_log("If statement failed in ajax.");
-                foreach ($params as $k => $v)
-                    error_log("$k => $v");
+            if ($params[2] == 'campaigns') {
+                if (($params[3] == 'all') && (is_int($params['4']))) {
+                    $this->searchCampaigns('BH_CLIENT.id' ,$params);
+                } else {
+                    $this->getCampaignsByDateRange($params);
+                }
             }
+            if ($params[2] == 'worksheets')
+                $this->getWorksheets($params);
         } 
 
         else {
@@ -3104,14 +3105,19 @@ class calendar
         return true;
     }
 
-    public function getCampaigns()
+    public function getCampaignsByDateRange($params)
     {
-//        error_log("In getCampaigns of controller");
+        // error_log("In getCampaigns of controller");
         $campaigns = new \BH\campaign($this->db, $this->agencyID, $this->userID);
         $results = $campaigns->getCampaignsByStatusAndDateRange($_GET['start'], $_GET['end']);
-//         error_log($results);
+        // error_log($results);
         
-        $event = $this->loadFullCalendarArray($results);
+        if ($params[3] == 'all') {
+            $this->vars['url'] == '/all';
+        } else
+            $this->vars["url"] == '';
+        
+        $event = $this->loadFullCalendarArray($results, $params[2]);
         
         if ($event != false) {
             $this->view = "ajax-response";
@@ -3122,20 +3128,49 @@ class calendar
         }
     }
 
-    public function loadFullCalendarArray($params)
+    public function searchCampaigns( $searchValue, $params)
     {
-        if ( is_array($params)) {
+        $campaigns = new \BH\campaign($this->db, $this->agencyID, $this->userID);
+        $results = $campaigns->searchCampaigns( $searchValue, $params[4]);
+        
+        if ($params[3] == 'all') {
+            $this->vars['url'] == '/all';
+        } else
+            $this->vars["url"] == '';
+        
+        $event = $this->loadFullCalendarArray($results, $params[2]);
+        
+        if ($event != false) {
+            $this->view = "ajax-response";
+        
+            $this->vars["response"] = $event;
+        
+            return false;
+        }
+        
+    }
+
+    public function loadFullCalendarArray($params, $type)
+    {
+        if (is_array($params)) {
             foreach ($params as $result) {
                 // error_log(print_r($result));
-                $bgColor = $result['bgColor'] == null ? '#489dc1' : $result['bgColor'];
-                $fontColor = $result['fontColor'] == null ? '#fff' : $result['fontColor'];
+
+                $bgColor = $result['bgColor'] == '' ? '#489dc1' : $result['bgColor'];
+                $fontColor = $result['fontColor'] == '' ? '#fff' : $result['fontColor'];
+                
+                error_log("Returned bgColor: {$bgColor}");
+                error_log("Returned fontColor: {$fontColor}");
                 
                 $events[] = array(
+                    'id' => $result['id'],
+                    'url' => "/{$type}/edit/{$result['id']}",
                     'title' => $result['name'],
                     'start' => $result['flightStart'],
                     'end' => $result['flightEnd'],
-                    'textColor' => $fontColor,
-                    'color' => $bgColor
+                    'borderColor' => '#fff',
+                    'textColor' => $result['fontColor'],
+                    'color' => $result['bgColor'],
                 );
             }
             $event = json_encode($events);

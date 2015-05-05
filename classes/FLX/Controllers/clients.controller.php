@@ -20,7 +20,7 @@ class clients extends \controller
 	private $view = "clients";
 	private $auth;
 	private $vars = array("activeSideBar"=>array("clients"=>"active"));
-	private $fields = array("clientName"=>"name", "contactName"=>"contactName", "emailAddress"=>"emailAddress", "address"=>"address", "phoneNumber"=>"phoneNumber", "faxNumber"=>"faxNumber", "website"=>"website", "notes"=>"notes", "isActive"=>"isActive", "agencyID"=>"agencyID");
+	private $fields = array("clientName"=>"name", "contactName"=>"contactName", "emailAddress"=>"emailAddress", "address"=>"address", "phoneNumber"=>"phoneNumber", "faxNumber"=>"faxNumber", "website"=>"website", "notes"=>"notes", "bgColor"=>"bgColor", "fontColor"=>"fontColor", "isActive"=>"isActive", "agencyID"=>"agencyID");
 	private $lists;
 	private $registration;
 	private $request;
