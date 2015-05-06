@@ -24,7 +24,7 @@ class campaign
 	public function __construct($db, $agencyID, $userID) {
 	  $this->db = $db;
 	  $this->agencyID = $agencyID;
-	  error_log("\n\n\n$agencyID\n\n\n");
+// 	  error_log("\n\n\n$agencyID\n\n\n");
 	  $this->userID = $userID;
 	  $this->sessionID = session_id();
 	  
@@ -63,7 +63,7 @@ class campaign
 		  
 		  if (intval($campaign["clientID"])>0) {
 			  	$this->campaignID = $this->db->insert("BH_CAMPAIGNS", $campaign);
-			  	error_log("Insert Campaign: " . $this->db->lastQuery());
+// 			  	error_log("Insert Campaign: " . $this->db->lastQuery());
 			  	return $this->campaignID;
 		  }
 		  else {
@@ -295,10 +295,10 @@ class campaign
 			}
 		  }
 		  
-		  $r=$this->db->query("select BH_CAMPAIGNS.*, BH_CLIENTS.name as clientName from BH_CAMPAIGNS left join BH_CLIENTS on (BH_CAMPAIGNS.clientID = BH_CLIENTS.id) where BH_CAMPAIGNS.agencyID = $agencyIDStr and BH_CAMPAIGNS.isDeleted is FALSE and BH_CLIENTS.isDeleted is FALSE $searchStr 
+		  $r = $this->db->query("select BH_CAMPAIGNS.*, BH_CLIENTS.name as clientName from BH_CAMPAIGNS left join BH_CLIENTS on (BH_CAMPAIGNS.clientID = BH_CLIENTS.id) where BH_CAMPAIGNS.agencyID = $agencyIDStr and BH_CAMPAIGNS.isDeleted is FALSE and BH_CLIENTS.isDeleted is FALSE $searchStr 
 					ORDER BY
 						BH_CAMPAIGNS.flightStart desc");
-	      $results=$r->fetchAll();
+	      $results = $r->fetchAll();
 	
 // 		  error_log($this->db->lastQuery());
 			
@@ -311,14 +311,14 @@ class campaign
 	
 	    $agencyIDStr = $this->db->quote($this->agencyID);
 	    
-	    error_log("AgencyID: $agencyIDStr");
+// 	    error_log("AgencyID: $agencyIDStr");
 	    
 	    // Covert dateTime format to usable string
 	    $_startDate = date('Y-m-d H:i:s', strtotime("-1 month",$startDate) );
 	    $_endDate = date('Y-m-d H:i:s',strtotime("+1 month", $endDate) );
 	    
 	    $r=$this->db->query("select
-	        BH_CAMPAIGNS.*, BH_CLIENTS.name as clientName, BH_CAMPAIGNS.flightStart
+	        BH_CAMPAIGNS.*, BH_CLIENTS.name as clientName, BH_CLIENTS.bgColor as bgColor, BH_CLIENTS.fontColor as fontColor, BH_CAMPAIGNS.flightStart
 	        from
 	        BH_CAMPAIGNS
 	        left join
@@ -343,6 +343,48 @@ class campaign
 // 	    error_log($this->db->lastQuery());
 	    	
 			  return $results;
+	}
+	
+	
+	public function getCampaignsByStatusAndDateRangeClientID( $startDate, $endDate, $clientID, $status = 1) {
+	
+	    $agencyIDStr = $this->db->quote($this->agencyID);
+	    $clientIDStr = $this->db->quote( $clientID );
+	     
+// 	    error_log("AgencyID: $agencyIDStr");
+	     
+	    // Covert dateTime format to usable string
+	    $_startDate = date('Y-m-d H:i:s', strtotime("-1 month",$startDate) );
+	    $_endDate = date('Y-m-d H:i:s',strtotime("+1 month", $endDate) );
+	     
+	    $r=$this->db->query("select
+	        BH_CAMPAIGNS.*, BH_CLIENTS.name as clientName, BH_CLIENTS.bgColor as bgColor, BH_CLIENTS.fontColor as fontColor, BH_CAMPAIGNS.flightStart
+	        from
+	        BH_CAMPAIGNS
+	        left join
+	        BH_CLIENTS
+	        on
+	        (BH_CAMPAIGNS.clientID = BH_CLIENTS.id)
+	        where
+	        BH_CLIENTS.id = $clientIDStr
+	        and
+	        BH_CAMPAIGNS.agencyID = '" . $this->agencyID . "'
+	        and
+	        BH_CAMPAIGNS.isDeleted is FALSE
+	        and
+	        BH_CLIENTS.isDeleted is FALSE
+	        and
+	        (BH_CAMPAIGNS.flightStart >= '$_startDate'
+	        and
+	        BH_CAMPAIGNS.flightEnd <= '$_endDate')
+	        ORDER BY
+	        BH_CAMPAIGNS.flightStart desc");
+	
+	        $results=$r->fetchAll();
+	
+	        // 	    error_log($this->db->lastQuery());
+	
+	        return $results;
 	}
 	
 	public function getRecentCampaigns() {
