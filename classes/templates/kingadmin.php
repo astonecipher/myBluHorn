@@ -65,7 +65,8 @@
 	<link href="/lib/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="/assets/css/main.css" rel="stylesheet" type="text/css">
 	<link href="/assets/css/skins/darkblue.css" rel="stylesheet" type="text/css">
-
+	<link type="text/css" rel="stylesheet" href="/assets/css/jquery.simplecolorpicker.css">
+	<link type="text/css" rel="stylesheet" href="/assets/css/jquery.simplecolorpicker-glyphicons.css">
 {*
 	<!-- CSS for demo style switcher. you can remove this -->
 	<link href="/demo-style-switcher/assets/css/style-switcher.css" rel="stylesheet" type="text/css">
@@ -1125,26 +1126,7 @@
 									</div>
 								</div>
 <!-- Calendar -->
-								<!-- WIDGET MAIN CHART WITH TABBED CONTENT -->
-
-										<!-- WIDGET TABLE -->
-										<div class="widget widget-table">
-											<div class="widget-header">
-												<h3><i class="fa fa-rocket"></i> Calendar Placeholder</h3>
-												<div class="btn-group widget-header-toolbar">
-													<a href="#" title="Focus" class="btn-borderless btn-focus"><i class="fa fa-eye"></i></a>
-													<a href="#" title="Expand/Collapse" class="btn-borderless btn-toggle-expand"><i class="fa fa-chevron-up"></i></a>
-													<a href="#" title="Remove" class="btn-borderless btn-remove"><i class="fa fa-times"></i></a>
-												</div>
-												<div class="btn-group widget-header-toolbar">
-											
-												</div>
-											</div>
-											<div class="widget-content">
-												<div id='calendar'></div>
-											</div>
-										</div>
-										<!-- END WIDGET TABLE -->
+{include file="db:full-calendar"}
 
 <!-- END Calendar -->
 								<div class="row">

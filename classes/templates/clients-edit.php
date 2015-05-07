@@ -108,18 +108,49 @@
 					</div>
 
 					<div class="form-group">
-						<label for="bgColor" class="col-sm-4 control-label">Calendar Color
+						<label for="bgColor" class="col-sm-4 control-label">Primary Color
 																		</label>
 																		<div class="col-sm-8 pull-left">
-																			<input type="text" id="bgColor" value="{$client.bgColor}" name="bgColor" class="form-control">
+																			
+																			<select id="bgColor" value="{$client.bgColor}" name="bgColor" class="simplecolorpicker icon" style="display: none;">
+																				  <option value="#fff">#fff</option>
+																				  <option value="#ac725e">#ac725e</option>
+																				  <option value="#d06b64">#d06b64</option>
+																				  <option value="#f83a22">#f83a22</option>
+																				  <option value="#fa573c">#fa573c</option>
+																				  <option value="#ff7537">#ff7537</option>
+																				  <option value="#ffad46">#ffad46</option>
+																				  <option value="#42d692">#42d692</option>
+																				  <option value="#16a765">#16a765</option>
+																				  <option value="#7bd148">#7bd148</option>
+																				  <option value="#b3dc6c">#b3dc6c</option>
+																				  <option value="#fbe983">#fbe983</option>
+																				  <option value="#fad165">#fad165</option>
+																				  <option value="#92e1c0">#92e1c0</option>
+																				  <option value="#9fe1e7">#9fe1e7</option>
+																				  <option value="#9fc6e7">#9fc6e7</option>
+																				  <option value="#4986e7">#4986e7</option>
+																				  <option value="#9a9cff">#9a9cff</option>
+																				  <option value="#b99aff">#b99aff</option>
+																				  <option value="#c2c2c2">#c2c2c2</option>
+																				  <option value="#cabdbf">#cabdbf</option>
+																				  <option value="#cca6ac">#cca6ac</option>
+																				  <option value="#f691b2">#f691b2</option>
+																				  <option value="#cd74e6">#cd74e6</option>
+																				  <option value="#a47ae2">#a47ae2</option>
+																			</select>
 																		</div>	
 					</div>
 
 					<div class="form-group">
-						<label for="fontColor" class="col-sm-4 control-label">Calendar text Color
+						<label for="fontColor" class="col-sm-4 control-label">Secondary Color
 																		</label>
 																		<div class="col-sm-8 pull-left">
-																			<input type="text" id="fontColor" value="{$client.fontColor}" name="fontColor" class="form-control">
+																		
+																			<select  id="fontColor" value="{$client.fontColor}" name="fontColor" class="simplecolorpicker icon" style="display: none;">
+																				  <option value="#fff">#fff</option>	
+																				  <option value="#000">#000</option>
+																			</select>
 																		</div>	
 					</div>
 
@@ -222,12 +253,12 @@
 									</div>
 								</div>
 
-
-</div>
 <!-- Calendar -->
 {include file="db:full-calendar"}
 
 <!-- END Calendar -->
+</div>
+
 </div>
 
 {/block}
@@ -243,6 +274,7 @@
 	<script type="text/javascript" src="/assets/js/datatable/jquery.dataTables.min.js"></script>
 	<script type="text/javascript" src="/assets/js/datatable/jquery.dataTables.bootstrap.js"></script>
     <script type='text/javascript' src='http://fullcalendar.io/js/fullcalendar-2.1.1/gcal.js'></script>
+
     <script>
     $( function() {
     
@@ -258,9 +290,13 @@
         ]
     
     	});
+
     });
     
+
+
     </script>
+	<script type="text/javascript" src="/assets/js/jquery.simplecolorpicker.js"></script>
 	<script>
 
 		$(document).ready(function(){
@@ -278,6 +314,21 @@
 			    clientActive(); 
 			}); 
 
+			$('select[name="bgColor"]').simplecolorpicker( { 
+				picker: true, theme: 'glyphicons',
+			});
+		    $('select[name="bgColor"]').simplecolorpicker('selectColor', '{$client.bgColor}');
+			$('select[name="fontColor"]').simplecolorpicker( { 
+				picker: true, theme: 'glyphicons',
+			});
+
+			$('select[name="bgColor"]').change( function() {
+			     $(".fc-event-inner").css("background-color", $('select[name="bgColor"]').val());
+			});
+
+			$('select[name="fontColor"]').change( function() {
+			     $(".fc-event-inner").css("color", $('select[name="fontColor"]').val());
+			});
 		});
 
 	</script>

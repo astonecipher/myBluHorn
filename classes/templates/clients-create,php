@@ -1,0 +1,239 @@
+{extends file="db:kingboard-framework"}
+
+{block name="header-js"}
+
+
+{/block}
+
+{block name="header-css"}
+
+{/block}
+
+{block name="sidebar-clicked"} {/block}
+
+{block name="breadcrumb"}
+		<ul class="breadcrumb">
+			<li><i class="fa fa-home"></i><a href="home">Home</a>
+			</li>
+			<li class="active">Clients</li>
+			</ul>
+{/block}
+
+{block name="main"}
+							<div class="main-header">
+								<h2>Clients</h2>
+								<em>Add A New Client</em>
+							</div>
+<div class="col-lg-6">
+	<div class="widget">
+		<div class="widget-header">
+				<h3>Add a New Client</h3>
+		</div>
+		<div class="widget-content">
+
+			<form class="form-horizontal label-left"  method="post" action="/bluhorn/clients/create/new" id="addClient" name="addClient" role="form" data-parsley-validate novalidate >
+{if $alert.error}
+<div class="alert alert-danger alert-dismissable">
+  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+  <strong>Whoa!</strong> {$alert.error}
+</div>
+{/if}		
+					<div id="client-name" class="form-group {if $clientNameError}has-error error{/if}">
+																		<label for="text-input" class="col-sm-4 control-label">Client Name</label>
+																		<div class="col-sm-8">
+							<input type="text" name="clientName" value="{$client.name}" id="client-name-input" class="form-control" required>
+							{if $clientNameError}										<span id="client-name-help" class="help-block text-danger">Client Name Already Exists!</span>
+							{/if}
+						</div>
+																	</div>
+
+					<div class="form-group">
+																		<label for="text-input" class="col-sm-4 control-label">Contact Name</label>
+																		<div class="col-sm-8">
+								<input type="text" name="contactName" value="{$client.contactName}" id="contactName" class="form-control" required>
+						</div>
+																	</div>
+
+					<div class="form-group">
+																		<label for="text-input" class="col-sm-4 control-label">Email Address</label>
+																		<div class="col-sm-8">
+								<input type="email" id="emailAddress" value="{$client.emailAddress}" name="emailAddress" class="form-control" data-parsley-trigger="change" >
+						</div>
+																	</div>
+
+					<div class="form-group">
+																		<label for="text-input" class="col-sm-4 control-label">Address</label>
+																		<div class="col-sm-8">
+								<textarea class="form-control"  value="{$client.address}" name="address" id="address" rows="5" cols="30" style="resize: none;"></textarea>
+						</div>
+																	</div>
+																	<div class="form-group">
+																		<label for="phone" class="col-sm-4 control-label">Phone Number
+																		<br>
+																		<small>(999) 999-9999</small>
+																		</label>
+																		<div class="col-sm-4 pull-left">
+																			<input type="text" id="phone" value="{$client.phoneNumber}" name="phoneNumber" class="form-control">
+																		</div>
+																	</div>
+
+					<div class="form-group">
+																		<label for="fax" class="col-sm-4 control-label">Fax Number
+																		<br>
+																		<small>(999) 999-9999</small>
+																		</label>
+																		<div class="col-sm-4 pull-left">
+																			<input type="text" id="fax"  value="{$client.faxNumber}" name="faxNumber" class="form-control">
+																		</div>
+																	</div>
+
+					<div class="form-group">
+						<label for="website" class="col-sm-4 control-label">Website
+																		</label>
+																		<div class="col-sm-8 pull-left">
+																			<input type="text" id="website" value="{$client.website}" name="website" class="form-control">
+																		</div>	
+					</div>
+
+					<div class="form-group">
+						<label for="bgColor" class="col-sm-4 control-label">Primary Color
+																		</label>
+																		<div class="col-sm-8 pull-left">
+																			
+																			<select id="bgColor" value="#ac725e" name="bgColor" class="simplecolorpicker icon" style="display: none;">
+																				  <option value="#fff">#fff</option>
+																				  <option value="#ac725e">#ac725e</option>
+																				  <option value="#d06b64">#d06b64</option>
+																				  <option value="#f83a22">#f83a22</option>
+																				  <option value="#fa573c">#fa573c</option>
+																				  <option value="#ff7537">#ff7537</option>
+																				  <option value="#ffad46">#ffad46</option>
+																				  <option value="#42d692">#42d692</option>
+																				  <option value="#16a765">#16a765</option>
+																				  <option value="#7bd148">#7bd148</option>
+																				  <option value="#b3dc6c">#b3dc6c</option>
+																				  <option value="#fbe983">#fbe983</option>
+																				  <option value="#fad165">#fad165</option>
+																				  <option value="#92e1c0">#92e1c0</option>
+																				  <option value="#9fe1e7">#9fe1e7</option>
+																				  <option value="#9fc6e7">#9fc6e7</option>
+																				  <option value="#4986e7">#4986e7</option>
+																				  <option value="#9a9cff">#9a9cff</option>
+																				  <option value="#b99aff">#b99aff</option>
+																				  <option value="#c2c2c2">#c2c2c2</option>
+																				  <option value="#cabdbf">#cabdbf</option>
+																				  <option value="#cca6ac">#cca6ac</option>
+																				  <option value="#f691b2">#f691b2</option>
+																				  <option value="#cd74e6">#cd74e6</option>
+																				  <option value="#a47ae2">#a47ae2</option>
+																			</select>
+																		</div>	
+					</div>
+
+					<div class="form-group">
+						<label for="fontColor" class="col-sm-4 control-label">Secondary Color
+																		</label>
+																		<div class="col-sm-8 pull-left">
+																		
+																			<select  id="fontColor" value="#fff" name="fontColor" class="simplecolorpicker icon" style="display: none;">
+																				  <option value="#fff">#fff</option>	
+																				  <option value="#000">#000</option>
+																			</select>
+																		</div>	
+					</div>
+
+					<div class="form-group">
+						<div class="col-sm-12">
+							<p>Notes</p>
+							<textarea id="textarea" name="notes" id="notes" class="form-control" rows="6" cols="30" maxlength="99" style="resize: none;">{$client.notes}</textarea>							<p class="textarea-msg"></p>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="bgColor" class="col-sm-4 control-label">Calendar Color
+																		</label>
+																		<div class="col-sm-8 pull-left">
+																			<input type="text" id="bgColor" value="{$client.bgColor}" name="bgColor" class="form-control">
+																		</div>	
+					</div>
+
+					<div class="form-group">
+						<label for="fontColor" class="col-sm-4 control-label">Calendar text Color
+																		</label>
+																		<div class="col-sm-8 pull-left">
+																			<input type="text" id="fontColor" value="{$client.fontColor}" name="fontColor" class="form-control">
+																		</div>	
+					</div>
+
+					<div class="form-group">
+						<div class="col-sm-12">
+							<p class="pull-right">
+								<input type="hidden" name="clientID" value="new">
+								<button type="button" class="btn btn-success" onclick="createClient();">Add Client</button>
+							</p>
+						</div>
+					</div>										</form>
+		</div>
+
+		<div class="widget-footer">
+			Not Saved
+		</div>
+
+	</div>
+</div>
+
+
+
+{/block}
+
+{block name="footer-js"}
+
+
+	<script type="text/javascript" src="/assets/js/bootstrap-switch.min.js"></script>
+	<script type="text/javascript" src="/assets/js/jquery.masked-input.min.js"></script>
+	<script type="text/javascript" src="/assets/js/bootstrap-multiselect.js"></script>
+	<script type="text/javascript" src="/assets/js/parsley.min.js"></script>
+
+	<script>
+
+
+	  function createClient() {
+	  
+		$("#addClient").submit();
+		  		 		  
+	
+	  }
+	  
+	  function deleteClient() {
+		  
+		  bootbox.confirm('Are you sure?', function(result) { console.log("Confirm result: "+result); });
+	  }
+
+
+	</script>
+	<script type="text/javascript" src="/assets/js/jquery.simplecolorpicker.js"></script>
+	<script>
+
+		$(document).ready(function(){
+	
+			$('#phone').mask('(999) 999-9999');
+			$('#fax').mask('(999) 999-9999');
+
+			$("#client-name-input").change(function() {
+				$("#client-name").removeClass("has-error error");
+				$("#client-name-help").hide();
+			});	
+			$('select[name="bgColor"]').simplecolorpicker( { 
+				picker: true, theme: 'glyphicons',
+			});
+			
+		    $('select[name="bgColor"]').simplecolorpicker('selectColor', '#ac725e');
+			$('select[name="fontColor"]').simplecolorpicker( { 
+				picker: true, theme: 'glyphicons',
+			});
+			
+		});
+
+	</script>
+
+{/block}
